@@ -21,5 +21,12 @@ alert(studentage)
 alert(profession)
 
 // 05 
-var pizza = Pizza \n PIZZ\nPIZ\nPI\nP 
+var pizza = "Pizza\nPIZZ\nPIZ\nPI\nP"
 alert(pizza)
+
+//06
+var email;
+var myAddress;
+email = "samad_89@hotmail.com";
+myAddress = "My Email address";
+alert(myAddress + " " + email);
