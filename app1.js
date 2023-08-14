@@ -27,6 +27,6 @@ alert(pizza)
 //06
 var email;
 var myAddress;
-email = "samad_89@hotmail.com";
+email = "samad_..@hotmail.com";
 myAddress = "My Email address";
 alert(myAddress + " " + email);
