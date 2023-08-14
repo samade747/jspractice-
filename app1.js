@@ -21,5 +21,5 @@ alert(studentage)
 alert(profession)
 
 // 05 
-var pizza = PIZZA\nPIZZ\nPIZ\nPI\nP 
+var pizza = Pizza \n PIZZ\nPIZ\nPI\nP 
 alert(pizza)
