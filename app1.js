@@ -40,6 +40,10 @@ alert(learn + "" + book)
 
 
 //08
-var writeElement = document.getElementById("write");
+write1 = document.getElementById(write);
 
-write = "Yah! I can write HTML content through JavaScript";
+
+//09
+var design
+design = '“▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬”';
+alert(design)
