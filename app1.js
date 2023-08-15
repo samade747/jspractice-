@@ -1,7 +1,7 @@
 //chapter 2
 
 // 01
-var Username
+var username = null;
 
 // 02
 var myName = 'Abdul Samad'
