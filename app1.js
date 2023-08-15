@@ -30,3 +30,16 @@ var myAddress;
 email = "samad_..@hotmail.com";
 myAddress = "My Email address";
 alert(myAddress + " " + email);
+
+
+//07
+var book;
+book = '"A smarter way to learn JavaScript".';
+var learn = "I am trying to learn from the Book";
+alert(learn + "" + book)
+
+
+//08
+var writeElement = document.getElementById("write");
+
+write = "Yah! I can write HTML content through JavaScript";
