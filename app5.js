@@ -47,7 +47,7 @@ var buying = 5;
 console.log(ticket + buying);
 document.write("Total cost to buy 5 tickets to movie is " +ticket*buying + ' PKR');
 
-//05 
+//05 table with fuction 
 const numberInput = document.getElementById("number");
     const tableContainer = document.getElementById("tableContainer");
 
