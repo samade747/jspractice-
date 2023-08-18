@@ -41,42 +41,65 @@ document.write("<br>");
 document.write("<br>");
 document.write("<br>");
 
-// 04 movie ticket 
-var ticket = 600; 
-var buying = 5;
-console.log(ticket + buying);
-document.write("Total cost to buy 5 tickets to movie is " +ticket*buying + ' PKR');
+// // 04 movie ticket 
+// var ticket = 600; 
+// var buying = 5;
+// console.log(ticket + buying);
+// document.write("Total cost to buy 5 tickets to movie is " +ticket*buying + ' PKR');
 
-//05 table with fuction 
-const numberInput = document.getElementById("number");
-    const tableContainer = document.getElementById("tableContainer");
+// //05 table with fuction 
+// const numberInput = document.getElementById("number");
+//     const tableContainer = document.getElementById("tableContainer");
 
-    const generateTable = () => {
-      // Clear any previous table
-      tableContainer.innerHTML = "";
+//     const generateTable = () => {
+//       // Clear any previous table
+//       tableContainer.innerHTML = "";
 
-      const number = parseInt(numberInput.value);
+//       const number = parseInt(numberInput.value);
 
-      if (!isNaN(number)) {
-        const table = document.createElement("table");
-        table.border = "1";
+//       if (!isNaN(number)) {
+//         const table = document.createElement("table");
+//         table.border = "1";
 
-        for (let i = 1; i <= 10; i++) {
-          const row = document.createElement("tr");
+//         for (let i = 1; i <= 10; i++) {
+//           const row = document.createElement("tr");
 
-          const cell1 = document.createElement("td");
-          cell1.textContent = `${number} x ${i}`;
-          row.appendChild(cell1);
+//           const cell1 = document.createElement("td");
+//           cell1.textContent = `${number} x ${i}`;
+//           row.appendChild(cell1);
 
-          const cell2 = document.createElement("td");
-          cell2.textContent = number * i;
-          row.appendChild(cell2);
+//           const cell2 = document.createElement("td");
+//           cell2.textContent = number * i;
+//           row.appendChild(cell2);
 
-          table.appendChild(row);
-        }
+//           table.appendChild(row);
+//         }
 
-        tableContainer.appendChild(table);
-      } else {
-        tableContainer.textContent = "Please enter a valid number.";
-      }
-    };
+//         tableContainer.appendChild(table);
+//       } else {
+//         tableContainer.textContent = "Please enter a valid number.";
+//       }
+//     };
+
+//04 chapter
+var getValuefromUser = prompt('which table do you want to generate?')
+
+document.write(getValuefromUser + " X 1 =" + (getValuefromUser * 1))
+document.write("<br>");
+document.write(getValuefromUser + " X 2 =" + (getValuefromUser * 2))
+document.write("<br>");
+document.write(getValuefromUser + " X 3 =" + (getValuefromUser * 3))
+document.write("<br>");
+document.write(getValuefromUser + " X 4 =" + (getValuefromUser * 4))
+document.write("<br>");
+document.write(getValuefromUser + " X 5 =" + (getValuefromUser * 5))
+document.write("<br>");
+document.write(getValuefromUser + " X 6 =" + (getValuefromUser * 6))
+document.write("<br>");
+document.write(getValuefromUser + " X 7 =" + (getValuefromUser * 7))
+document.write("<br>");
+document.write(getValuefromUser + " X 8 =" + (getValuefromUser * 8))
+document.write("<br>");
+document.write(getValuefromUser + " X 9 =" + (getValuefromUser * 9))
+document.write("<br>");
+document.write(getValuefromUser + " X 10 =" + (getValuefromUser * 10))
