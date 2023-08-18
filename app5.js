@@ -41,11 +41,11 @@ document.write("<br>");
 document.write("<br>");
 document.write("<br>");
 
-// // 04 movie ticket 
-// var ticket = 600; 
-// var buying = 5;
-// console.log(ticket + buying);
-// document.write("Total cost to buy 5 tickets to movie is " +ticket*buying + ' PKR');
+// 04 movie ticket 
+var ticket = 600; 
+var buying = 5;
+console.log(ticket + buying);
+document.write("Total cost to buy 5 tickets to movie is " +ticket*buying + ' PKR');
 
 // //05 table with fuction 
 // const numberInput = document.getElementById("number");
@@ -81,7 +81,7 @@ document.write("<br>");
 //       }
 //     };
 
-//04 chapter
+//05 chapter
 var getValuefromUser = prompt('which table do you want to generate?')
 
 document.write(getValuefromUser + " X 1 =" + (getValuefromUser * 1))
@@ -103,3 +103,41 @@ document.write("<br>");
 document.write(getValuefromUser + " X 9 =" + (getValuefromUser * 9))
 document.write("<br>");
 document.write(getValuefromUser + " X 10 =" + (getValuefromUser * 10))
+document.write("<br>");
+document.write("<br>");
+document.write("<br>");
+
+//  06
+
+var Celsius = 25;
+var Fahrenheit = (Celsius * 9 / 5 ) +32;
+document.write("<b>" +Celsius+"</b> <sup>0</sup> is" +Fahrenheit+"</br><sup>C<br><br><br>")       
+
+var Fahrenheit = 70 
+var Celsius = (Fahrenheit-32)*5/9
+document.write("<b>" +Fahrenheit+"</b> <sup>0</sup> is" +Celsius+"</br><sup>C<br><br><br>")        
+
+
+
+
+// 07 
+var Price1 = 650;
+var Price2 = 100;
+var Order1 = 3;
+var Order2 = 7;
+var shipping = 100;
+
+document.write("<h1>Shopping Cart</h1>");
+document.write("<br><br><br><br>");
+document.write("<h3>Price of item 1 is 650</h3>");
+document.write("<h3>Quantity of item 1 is 3</h3>");
+document.write("<h3>Price of item 2 is 100</h3>");
+document.write("<h3>Quantity of item 2 is 7</h3>");
+document.write("<h3>Shipping charges 100</h3>");
+
+var totalPrice = Price1 * Order1 + Price2 * Order2 + shipping;
+
+document.write("Total Price: " + totalPrice);
+
+
+
