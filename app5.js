@@ -135,7 +135,7 @@ document.write("<h3>Price of item 2 is 100</h3>");
 document.write("<h3>Quantity of item 2 is 7</h3>");
 document.write("<h3>Shipping charges 100</h3>");
 
-var totalPrice = Price1 * Order1 + Price2 * Order2 + shipping;
+var totalPrice = Price1  * Order1 + Price2 * Order2 + shipping;
 
 document.write("Total Price: " + totalPrice);
 
