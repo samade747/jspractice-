@@ -187,7 +187,6 @@ document.write("<br>");
 //10 
 
 let number2 = 10;
-let resultTotal = 10 + 5 * 10 / 2;
+let resultTotal = (number2 + 5) * 10 / 2;
 
-
-document.write(resultTotal);
+document.getElementById("resultContainer").innerHTML = "Result Total: " + resultTotal;
