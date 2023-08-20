@@ -139,5 +139,46 @@ var totalPrice = Price1  * Order1 + Price2 * Order2 + shipping;
 
 document.write("Total Price: " + totalPrice);
 
+document.write("<br><br><br><br>");
 
 
+
+
+// 08
+document.write("<br>");
+var Mark = "Mark Sheet";
+document.write("<br>");
+document.write("<br>");
+document.write("<br>");
+var TotalMarks = 980;
+document.write("<br>");
+var MarksObtained = 804;
+document.write("<br>");
+document.write("<br>");
+var Percentage = MarksObtained / TotalMarks *100
+
+document.write("<h1>Mark Sheet</h1>");
+document.write("<br>");
+document.write("<br>");
+document.write( "Total marks  " + TotalMarks);
+document.write("<br>");
+document.write("<br>");
+document.write( "Marks obtained " +  MarksObtained);
+document.write("<br>");
+document.write("<br>");
+document.write( "Percentage " + Percentage)
+
+//09
+var usRate = 104.80;
+var usDollar = 10;
+var AmountUS = usRate * usDollar;
+
+var SaudiRate = 28;
+var SaudiDollar = 25;
+var AmountSaudi = SaudiRate * SaudiDollar;
+
+var totalPkr = AmountUS + AmountSaudi;
+
+document.write("<h1>Curreny in PKR</h1>")
+document.write("<br>");
+document.write('Total Currency in PKR:' + totalPkr);
