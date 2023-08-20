@@ -179,6 +179,15 @@ var AmountSaudi = SaudiRate * SaudiDollar;
 
 var totalPkr = AmountUS + AmountSaudi;
 
-document.write("<h1>Curreny in PKR</h1>")
+document.write("<h1>Curreny in PKR</h1>");
 document.write("<br>");
 document.write('Total Currency in PKR:' + totalPkr);
+document.write("<br>");
+
+//10 
+
+let number2 = 10;
+let resultTotal = 10 + 5 * 10 / 2;
+
+
+document.write(resultTotal);
