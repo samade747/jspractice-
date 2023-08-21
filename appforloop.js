@@ -46,6 +46,7 @@ for(var i=1;  i<=userinp1;               i++            ){
 // for loop 
 var userInp1 = prompt('Enter city name')
 var arr = ['Karachi', 'lahore', 'islamabad', 'peshawar', 'quetta']
+var match = false
 
 for(var i=0; i < arr.length; i++){
     if(userInp1 == arr[i]){
