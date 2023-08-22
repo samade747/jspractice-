@@ -59,3 +59,23 @@ for(var i=0; i < arr.length; i++){
 if(match == false){
     alert('city not found')
 }
+
+
+
+//Nested loop for 
+
+var arr1 = ['Salman', 'Arbaz', 'Sohail']
+var arr2 = ['saleem khan', 'asad']
+
+
+for(var i=0; i<arr1.length; i++){
+
+    for(var j=0; j<arr2.length; j++){
+        document.write(arr1[i] + " " +arr2[j]+ "<br>")
+    }
+
+
+
+}
+
+
