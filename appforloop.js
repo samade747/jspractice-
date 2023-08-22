@@ -73,9 +73,15 @@ for(var i=0; i<arr1.length; i++){
     for(var j=0; j<arr2.length; j++){
         document.write(arr1[i] + " " +arr2[j]+ "<br>")
     }
-
-
-
 }
 
+
+// nested  loop for 2 
+
+for(var i=1; i<=100; i=i+10){
+
+    for(var j=i; j < i+10; j++)
+    document.write(j+ " ")  
+}
+    document.write("<br>")
 
