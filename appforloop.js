@@ -85,3 +85,27 @@ for(var i=1; i<=100; i=i+10){
 }
     document.write("<br>")
 }
+
+
+// arr index of 
+var arr3 = ['saad', 'osama', 'taha', 'bilal']
+
+document.write(arr3.indexOf('osama'))
+
+document.write("<br>")
+
+// check double names in index 
+
+
+var arr4 = ['saad', 'osama', 'taha', 'bilal', 'saad']
+
+document.write(arr4.indexOf('saad', 1))
+
+document.write("<br>")
+
+// last  index of (check double names in index )
+document.write("<br>")
+
+var arr4 = ['saad', 'osama', 'taha', 'bilal', 'saad']
+
+document.write(arr4.lastIndexOf('saad'))
