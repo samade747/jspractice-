@@ -109,3 +109,25 @@ document.write("<br>")
 var arr4 = ['saad', 'osama', 'taha', 'bilal', 'saad']
 
 document.write(arr4.lastIndexOf('saad'))
+
+
+// Math Round percentage (round to 72)
+var perc = 72.2 
+document.write(Math.round(perc))
+
+// Math Round ceil (round to 73)
+var perc1 = 72.2 
+document.write(Math.ceil(perc1))
+
+// Math Round floor  (round to 72)
+var perc12 = 72.9
+document.write(Math.floor(perc12))
+
+// Math.randam  
+// if we give * 1 (otak uthayega )
+// if we give * 2 (0 se 2 tak uthayega )
+// if we give * 10 (o-9tak uthayega )
+document.write(Math.random() * 10)
+
+
+// Haid tail Game 
