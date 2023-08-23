@@ -99,7 +99,7 @@ document.write("<br>")
 
 var arr4 = ['saad', 'osama', 'taha', 'bilal', 'saad']
 
-document.write(arr4.indexOf('saad', 1))
+document.write(arr4.indexOf('saad', 1)) 
 
 document.write("<br>")
 
