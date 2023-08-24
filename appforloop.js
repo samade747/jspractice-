@@ -130,4 +130,21 @@ document.write(Math.floor(perc12))
 document.write(Math.random() * 10)
 
 
-// Haid tail Game 
+// Head tail Game 
+
+var player1 = prompt('Enter Heads Name')
+var player2 = prompt('Enter Tails Name')
+
+
+var toss = Math.random() * 2
+var ch = Math.floor(ch)
+
+if(toss == 0){
+    document.write(player1+ 'Head wins')
+}
+else{
+    document.write(player2+ 'Tails wins')
+}
+
+
+
