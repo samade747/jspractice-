@@ -28,8 +28,9 @@
         <input readonly type="text" name="" id="inp">
     </div>
     <div>
-        <button>Clear all</button>
-        <button>delete </button>
+        <button onclick="document.getElementById('inp').value = ''">Clear all</button>
+        <button onclick="document.getElementById('inp').value = document.getElementById('inp').value.slice(0, -1)">Delete</button>
+
     </div>
     <br>
     <div>
@@ -57,7 +58,8 @@
         <button onclick="dabaya(0)">0</button>
         <button onclick="dabaya('*')">X</button>
         <button onclick="eq()">=</button>
-        <button onclick="eq('%')">%</button>
+        <button onclick="calculatePercentage()">%</button>
+
     </div>
 
 
