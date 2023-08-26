@@ -195,4 +195,19 @@ if
 else
  {
   alert("Goodbye");
+  
 }
+
+
+// creating a function & Calling in via loop 
+
+function abc(){
+    alert('Hello World')
+}
+// its runs with above function 
+
+for(var i=0; i<=10; i++){
+    abc()
+}
+
+
