@@ -286,3 +286,35 @@ function calculatePercentage() {
     var result = eval(expression) / 100;
     inputField.value = result;
 }
+
+
+// call back function anoanymus function
+setInterval(function(){
+    document.write('hello world')
+},1000)
+
+
+// creating stopwatch 
+
+// set interval = call back function time dete ho, let 2s ke badh bar bar chale ga, chalta hi rehta hai qayamat tak
+// setInterval(function(){
+//     document.write('hello world')
+
+// },1000)
+
+
+    
+
+
+
+// set timeout = time dete ho, let 2s ke badh 1 bar chalga 5 sec ke badh chalna hai 
+
+
+
+
+//clear Interval = time ko rako ke set interval walo ko 
+
+
+
+// clear timeout = time ko rako ke set time wale ko 
+
