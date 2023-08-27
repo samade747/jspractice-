@@ -289,19 +289,26 @@ function calculatePercentage() {
 
 
 // call back function anoanymus function
-setInterval(function(){
-    document.write('hello world')
-},1000)
+// setInterval(function(){
+//     document.write('hello world')
+// },1000)
 
 
 // creating stopwatch 
 
 // set interval = call back function time dete ho, let 2s ke badh bar bar chale ga, chalta hi rehta hai qayamat tak
+
 // setInterval(function(){
 //     document.write('hello world')
 
 // },1000)
 
+// print conunting with 1 2 3 4 5 .... 10 ..11..100 
+var num = 0
+setInterval(function(){
+    num++
+    document.write(num)
+},1000)
 
     
 
@@ -309,6 +316,9 @@ setInterval(function(){
 
 // set timeout = time dete ho, let 2s ke badh 1 bar chalga 5 sec ke badh chalna hai 
 
+// setTimeout(function(){
+//     document.write('abcd')
+// },4000)
 
 
 
