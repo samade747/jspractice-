@@ -376,3 +376,7 @@ function reset(){
     getsec.innerHTML = seconds
     getmili.innerHTML = miliseconds
 }
+
+
+
+// creating To Do App 
