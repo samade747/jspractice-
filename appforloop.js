@@ -304,11 +304,11 @@ function calculatePercentage() {
 // },1000)
 
 // print conunting with 1 2 3 4 5 .... 10 ..11..100 
-var num = 0
-setInterval(function(){
-    num++
-    document.write(num)
-},1000)
+// var num = 0
+// setInterval(function(){
+//     num++
+//     document.write(num + "<br>")
+// },1000)
 
     
 
@@ -322,9 +322,57 @@ setInterval(function(){
 
 
 
-//clear Interval = time ko rako ke set interval walo ko 
+//clear Interval = time ko rokoh, ke set interval walo ko 
 
 
 
-// clear timeout = time ko rako ke set time wale ko 
+// clear timeout = time ko rokoh, ke set time wale ko 
 
+
+
+
+// creating stopSwitch
+
+var minutes = 0 
+var seconds = 0
+var miliseconds = 0
+var getmin = document.getElementById('min')
+var getsec = document.getElementById('sec')
+var getmili = document.getElementById('msec')
+var interval;
+
+
+function start(){
+    interval = setInterval(function(){
+        miliseconds++
+        getmili.innerHTML = miliseconds
+        if(miliseconds >= 1000){
+            seconds++
+            getsec.innerHTML = seconds
+            miliseconds = 0
+        }
+        else if(seconds >= 60){
+            minutes++
+            getmin.innerHTML = minutes
+            seconds = 0
+        }
+    
+    },100)
+    document.getElementById('sss').disabled = true
+    
+}
+
+function stop(){
+    clearInterval(interval)
+    document.getElementById('sss').disabled = false
+
+}
+
+function reset(){
+    minutes = 0
+    miliseconds = 0
+    seconds = 0
+    getmin.innerHTML = minutes
+    getsec.innerHTML = seconds
+    getmili.innerHTML = miliseconds
+}
