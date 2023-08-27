@@ -346,7 +346,7 @@ function start(){
     interval = setInterval(function(){
         miliseconds++
         getmili.innerHTML = miliseconds
-        if(miliseconds >= 1000){
+        if(miliseconds >= 100){
             seconds++
             getsec.innerHTML = seconds
             miliseconds = 0
