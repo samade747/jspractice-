@@ -377,6 +377,6 @@ function reset(){
     getmili.innerHTML = miliseconds
 }
 
-
+ 
 
 // creating To Do App 
