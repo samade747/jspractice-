@@ -1,257 +1,256 @@
 
 // // intiazise  / condition check / increment decrement 
-// for(var i=1;  i<=10;               i++            ){
-//     document.write(2 + " x " +i+ "=" +2*i, "<br>")
-// }
+for(var i=1;  i<=10;               i++            ){
+    document.write(2 + " x " +i+ "=" +2*i, "<br>")
+}
 
-// document.write("<br>");
-// document.write("<br>");
-// document.write("<br>");
-// document.write("<br>");
-// document.write("<br>");
+document.write("<br>");
+document.write("<br>");
+document.write("<br>");
+document.write("<br>");
+document.write("<br>");
 
 
 
 
 // // with user input 
 
-// var userinp = +prompt("Enter Value")
+var userinp = +prompt("Enter Value")
 
 
-// // with user input // intiazise  / condition check / increment decrement 
-// for(var i=1;  i<=10;               i++            ){
-//     document.write(userinp + " x " +i+ "=" +userinp*i, "<br>")
-// }
+// with user input // intiazise  / condition check / increment decrement 
+for(var i=1;  i<=10;               i++            ){
+    document.write(userinp + " x " +i+ "=" +userinp*i, "<br>")
+}
 
-// document.write("<br>");
-// document.write("<br>");
-// document.write("<br>");
-// document.write("<br>");
-// document.write("<br>");
+document.write("<br>");
+document.write("<br>");
+document.write("<br>");
+document.write("<br>");
+document.write("<br>");
 
 
 
 // // with user input with 2 prompt 
 
-// var userinp = +prompt("Enter Value")
-// var userinp1 = +prompt("Enter Value")
+var userinp = +prompt("Enter Value")
+var userinp1 = +prompt("Enter Value")
 
 
-// // with user input // intiazise  / condition check / increment decrement 
-// for(var i=1;  i<=userinp1;               i++            ){
-//     document.write(userinp + " x " +i+ "=" +userinp*i, "<br>")
-// }
+// with user input // intiazise  / condition check / increment decrement 
+for(var i=1;  i<=userinp1;               i++            ){
+    document.write(userinp + " x " +i+ "=" +userinp*i, "<br>")
+}
 
 
 // // for loop 
-// var userInp1 = prompt('Enter city name')
-// var arr = ['Karachi', 'lahore', 'islamabad', 'peshawar', 'quetta']
-// var match = false
+var userInp1 = prompt('Enter city name')
+var arr = ['Karachi', 'lahore', 'islamabad', 'peshawar', 'quetta']
+var match = false
 
-// for(var i=0; i < arr.length; i++){
-//     if(userInp1 == arr[i]){
-//       match = true
-//       alert('City found')
-//       break
-//     }
-// }
+for(var i=0; i < arr.length; i++){
+    if(userInp1 == arr[i]){
+      match = true
+      alert('City found')
+      break
+    }
+}
 
-// if(match == false){
-//     alert('city not found')
-// }
+if(match == false){
+    alert('city not found')
+}
 
 
 
 // //Nested loop for 
 
-// var arr1 = ['Salman', 'Arbaz', 'Sohail']
-// var arr2 = ['saleem khan', 'asad']
+var arr1 = ['Salman', 'Arbaz', 'Sohail']
+var arr2 = ['saleem khan', 'asad']
 
 
-// for(var i=0; i<arr1.length; i++){
+for(var i=0; i<arr1.length; i++){
 
-//     for(var j=0; j<arr2.length; j++){
-//         document.write(arr1[i] + " " +arr2[j]+ "<br>")
-//     }
-// }
+    for(var j=0; j<arr2.length; j++){
+        document.write(arr1[i] + " " +arr2[j]+ "<br>")
+    }
+}
 
 
 // // nested  loop for 2 
 
-// for(var i=1; i<=100; i=i+10){
+for(var i=1; i<=100; i=i+10){
 
-//     for(var j=i; j < i+10; j++){
-//     document.write(j+" ")  
-// }
-//     document.write("<br>")
-// }
+    for(var j=i; j < i+10; j++){
+    document.write(j+" ")  
+}
+    document.write("<br>")
+}
 
 
 // // arr index of 
-// var arr3 = ['saad', 'osama', 'taha', 'bilal']
+var arr3 = ['saad', 'osama', 'taha', 'bilal']
 
-// document.write(arr3.indexOf('osama'))
+document.write(arr3.indexOf('osama'))
 
-// document.write("<br>")
+document.write("<br>")
 
 // // check double names in index 
 
 
-// var arr4 = ['saad', 'osama', 'taha', 'bilal', 'saad']
+var arr4 = ['saad', 'osama', 'taha', 'bilal', 'saad']
 
-// document.write(arr4.indexOf('saad', 1)) 
+document.write(arr4.indexOf('saad', 1)) 
 
-// document.write("<br>")
+document.write("<br>")
 
-// // last  index of (check double names in index )
-// document.write("<br>")
+// last  index of (check double names in index )
+document.write("<br>")
 
-// var arr4 = ['saad', 'osama', 'taha', 'bilal', 'saad']
+var arr4 = ['saad', 'osama', 'taha', 'bilal', 'saad']
 
-// document.write(arr4.lastIndexOf('saad'))
-
-
-// // Math Round percentage (round to 72)
-// var perc = 72.2 
-// document.write(Math.round(perc))
-
-// // Math Round ceil (round to 73)
-// var perc1 = 72.2 
-// document.write(Math.ceil(perc1))
-
-// // Math Round floor  (round to 72)
-// var perc12 = 72.9
-// document.write(Math.floor(perc12))
-
-// // Math.randam  
-// // if we give * 1 (otak uthayega )
-// // if we give * 2 (0 se 2 tak uthayega )
-// // if we give * 10 (o-9tak uthayega )
-// document.write(Math.random() * 10)
+document.write(arr4.lastIndexOf('saad'))
 
 
-// // Head tail Game 
+// Math Round percentage (round to 72)
+var perc = 72.2 
+document.write(Math.round(perc))
 
-// var player1 = prompt('Enter Heads Name')
-// var player2 = prompt('Enter Tails Name')
+// Math Round ceil (round to 73)
+var perc1 = 72.2 
+document.write(Math.ceil(perc1))
+
+// Math Round floor  (round to 72)
+var perc12 = 72.9
+document.write(Math.floor(perc12))
+
+// Math.randam  
+//if we give * 1 //(otak uthayega )
+//if we give * 2 //(0 se 2 tak uthayega )
+//if we give * 10 //(o-9tak uthayega )
+document.write(Math.random() * 10)
 
 
-// var toss = Math.random() * 2
-// var ch = Math.floor(ch)
+// Head tail Game 
 
-// if(toss == 0){
-//     document.write(player1+ 'Head wins')
-// }
-// else{
-//     document.write(player2+ 'Tails wins')
-// }
+var player1 = prompt('Enter Heads Name')
+var player2 = prompt('Enter Tails Name')
 
+
+var toss = Math.random() * 2
+var ch = Math.floor(ch)
+
+if(toss == 0){
+    document.write(player1+ 'Head wins')
+}
+else{
+    document.write(player2+ 'Tails wins')
+}
+
+
+// // // infianite loop 
+//  for(var i=1; i > 0; i++){
+//      document.write(i)
+//  }
 
 // // // infianite loop 
 
-// // // for(var i=1; i > 0; i++){
-// // //     document.write(i)
-// // // }
-
-// // // infianite loop 
-
-// // // var i = 1;
-// // // while (true) {
-// // //     // Your code here
-// // //     i++;
-// // //     console.log(i);
-// // // }
+//  var i = 1;
+//  while (true) {
+//      // Your code here
+//      i++;
+//      console.log(i);
+// }
 
 
 
 // // to uppercase 
 
-// var city = 'karachi'
-// document.write(city.toUpperCase())
+var city = 'karachi'
+document.write(city.toUpperCase())
 
-// var city = 'kArRcHi'
-// document.write(city.toUpperCase())
+var city = 'kArRcHi'
+document.write(city.toUpperCase())
 
-// var city = 'kArRcHi'
-// document.write(city.toLowerCase())
+var city = 'kArRcHi'
+document.write(city.toLowerCase())
 
 // using user input how to do uppercaase lowercase 
 
-// var pro = prompt('Enter city Name');
+var pro = prompt('Enter city Name');
 
-// var pro1 = pro.slice(0,1).toUpperCase()
-// var pro2 = pro.slice(1).toLowerCase()
+var pro1 = pro.slice(0,1).toUpperCase()
+var pro2 = pro.slice(1).toLowerCase()
 
-// var res = pro1 + pro2
+var res = pro1 + pro2
 
-// document.write(res)
+document.write(res)
 
-// // if else 
+//if else 
 
-// if
-//  (x > y) {
-//   alert("Hello World ");
-// } 
-// else
-//  {
-//   alert("Goodbye");
+if
+ (x > y) {
+  alert("Hello World ");
+} 
+else
+ {
+  alert("Goodbye");
   
-// }
+}
 
 
-// // creating a function & Calling in via loop 
+// creating a function & Calling in via loop 
 
-// function abc(){
-//     alert('Hello World')
-// }
-// // its runs with above function 
+function abc(){
+    alert('Hello World')
+}
+// its runs with above function 
 
-// for(var i=0; i<=10; i++){
-//     abc()
-// }
-
-
-// // function will default value, function calling by user & also if not default value is given 
-// function sum(a=2,b=2,c=2){
-//     var t = +prompt('Enter value 1')
-//     var t1 = +prompt('Enter value 2')
-//     var t2 = +prompt('Enter value 3')
-//     if(t == '' && t1 == '' && t2 == ''){
-//         return a + b + c 
-//     }
-//     else{
-//         return t + t1 + t2
-//     }
-// }
-
-// alert(sum())
+for(var i=0; i<=10; i++){
+    abc()
+}
 
 
-// function sum(f=2,h=5,q=3){
-//     var wah = +prompt('Enter value 1')
-//     var wah1 = +prompt('Enter value 2')
-//     var wah2 = +prompt('Enter value 3')
-//     if(wah == '' && wah2 == '' && wah2 == ''){
-//         return f + h + q;
-//     }
-// else{
-//     return wah + wah1 + wah2
-// }
-// }
-// alert(sum())
+// function will default value, function calling by user & also if not default value is given 
+function sum(a=2,b=2,c=2){
+    var t = +prompt('Enter value 1')
+    var t1 = +prompt('Enter value 2')
+    var t2 = +prompt('Enter value 3')
+    if(t == '' && t1 == '' && t2 == ''){
+        return a + b + c 
+    }
+    else{
+        return t + t1 + t2
+    }
+}
+
+alert(sum())
 
 
-// function we define the value in line 224
-// function using as user input in line 225
+function sum(f=2,h=5,q=3){
+    var wah = +prompt('Enter value 1')
+    var wah1 = +prompt('Enter value 2')
+    var wah2 = +prompt('Enter value 3')
+    if(wah == '' && wah2 == '' && wah2 == ''){
+        return f + h + q;
+    }
+else{
+    return wah + wah1 + wah2
+}
+}
+alert(sum())
 
-// alert(sum(10,10,10))
-// alert(sum())
 
-// var a = +prompt('Enter value 1')
-// var b = +prompt('Enter value 2')
-// var c = +prompt('Enter value 3')
+//function we define the value in line 224
+//function using as user input in line 225
 
-// alert(sum(a, b, c))
+alert(sum(10,10,10))
+alert(sum())
+
+var a = +prompt('Enter value 1')
+var b = +prompt('Enter value 2')
+var c = +prompt('Enter value 3')
+
+alert(sum(a, b, c))
 
 
 
@@ -259,13 +258,13 @@
 
 // chapter documnet Object model DOM
 
-// //creating function & function name "abc" is called by id in html
-// function abc(){
-// // getting the data from html given id 
-// document.getElementById('ttt').innerHTML = 'hello world'
-// // hidden the ReadMore Button
-// document.getElementById('anc').style.display = 'none'
-// }
+//creating function & function name "abc" is called by id in html
+function abc(){
+// getting the data from html given id 
+document.getElementById('ttt').innerHTML = 'hello world'
+// hidden the ReadMore Button
+document.getElementById('anc').style.display = 'none'
+}
 
 // creating Calcualator
 
@@ -289,26 +288,26 @@ function calculatePercentage() {
 
 
 // call back function anoanymus function
-// setInterval(function(){
-//     document.write('hello world')
-// },1000)
+setInterval(function(){
+    document.write('hello world')
+},1000)
 
 
 // creating stopwatch 
 
 // set interval = call back function time dete ho, let 2s ke badh bar bar chale ga, chalta hi rehta hai qayamat tak
 
-// setInterval(function(){
-//     document.write('hello world')
+setInterval(function(){
+    document.write('hello world')
 
-// },1000)
+},1000)
 
 // print conunting with 1 2 3 4 5 .... 10 ..11..100 
-// var num = 0
-// setInterval(function(){
-//     num++
-//     document.write(num + "<br>")
-// },1000)
+var num = 0
+setInterval(function(){
+    num++
+    document.write(num + "<br>")
+},1000)
 
     
 
@@ -316,9 +315,9 @@ function calculatePercentage() {
 
 // set timeout = time dete ho, let 2s ke badh 1 bar chalga 5 sec ke badh chalna hai 
 
-// setTimeout(function(){
-//     document.write('abcd')
-// },4000)
+setTimeout(function(){
+    document.write('abcd')
+},4000)
 
 
 
