@@ -411,38 +411,49 @@
 
 
 
-var getul = document.getElementById('ul')
+// var getul = document.getElementById('ul')
 
-function foo1(){
-    var ca = document.getElementById('inp2')
-    var li = document.createElement('li')
-    var litext= document.createTextNode(ca.value)
-    li.appendChild(litext)
-    getul.appendChild(li)
-    ca.value = ''
-    var deletebtn = document.createElement('button');
-    var deletebtnText = document.createTextNode("Delete");
-    deletebtn.appendChild(deletebtnText);
-    li.appendChild(deletebtn);
-    deletebtn.setAttribute('onclick', 'del(this.parentNode)');
-}
+// function foo1(){
+//     var ca = document.getElementById('inp2')
+//     var li = document.createElement('li')
+//     var litext= document.createTextNode(ca.value)
+//     li.appendChild(litext)
+//     getul.appendChild(li)
+//     ca.value = ''
+//     var deletebtn = document.createElement('button');
+//     var deletebtnText = document.createTextNode("Delete");
+//     deletebtn.appendChild(deletebtnText);
+//     li.appendChild(deletebtn);
+//     deletebtn.setAttribute('onclick', 'del(this.parentNode)');
+// }
 
-function deleteall(){
-    getul.innerHTML = ''
-}
+// function deleteall(){
+//     getul.innerHTML = ''
+// }
  
 
-function del(node){
-   node.remove()
+// function del(node){
+//    node.remove()
 
-}
-
-
+// }
 
 
 
 
 
+
+// var total =  (2 + 3) * 4;
+// console.log(total) 
+
+
+
+
+var a = 4;
+var b = 3;
+
+var c = a++ - b-- + --a +a++;
+       // 4 - 3 +  4 + 4  
+console.log(c)
 
 
 
