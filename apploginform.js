@@ -1,5 +1,11 @@
 
 
+
+var userEmail 
+var userPassword
+
+
+
 // signup Values
 
 var firstName = document.getElementById('firstName')
@@ -16,15 +22,28 @@ function singuphandler(){
     
 // checking if empty value
 
-    if(firstName.value == '' ||
+    if (firstName.value == '' ||
+       lastName.value  == '' ||
+       userName.value  == '' ||
+       password.value  == '' ||
+       cPassword.value == '' ||
+       email.value     == ''  ) {
+        return alert('fillup all fields')        
+       }    
+    // password Matching 
+    if (password.value != cPassword.value) {
+        return alert('password and confirm mismatched')
+    }
+
+    // checking if already user exist 
+
+    if (email.value == userEmail){
+        return alert('account already exist')
+    } 
+
     
     
     
-    
-    
-    
-    
-    )
 
 
 }
