@@ -63,6 +63,19 @@ const loginEmail = document.getElementById('loginemail')
 const loginPassword = document.getElementById('loginpassword')
 
 
-function loginhandler(){
+function loginhandler() {
+  console.log(loginEmail.value, loginPassword.value == '' "==>>login Handler Working")
+  
+  if(loginEmail.value == "" || loginPassword.value == ""){
+    return alert('khali jagah mat choro')    
+  }
+
+  if(loginEmail.value != userEmail){
+    return alert("user not exist, register and create account")
+  }
+
+  
+
+
     
 }
