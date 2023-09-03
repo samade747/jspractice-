@@ -15,6 +15,10 @@ var email = document.getElementById('email')
 var password = document.getElementById('password')
 var cpassword = document.getElementById('cpassword')
 
+// loginvalues 
+const loginEmail = document.getElementById('loginemail')
+const loginPassword = document.getElementById('loginpassword')
+
 
 // singup fucntion
 
@@ -58,13 +62,11 @@ function singuphandler() {
 }
 
 
-// loginvalues 
-const loginEmail = document.getElementById('loginemail')
-const loginPassword = document.getElementById('loginpassword')
+
 
 
 function loginhandler() {
-  console.log(loginEmail.value, loginPassword.value == '' "==>>login Handler Working")
+  console.log(loginEmail.value, loginPassword.value == '')
   
   if(loginEmail.value == "" || loginPassword.value == ""){
     return alert('khali jagah mat choro')    
@@ -74,8 +76,11 @@ function loginhandler() {
     return alert("user not exist, register and create account")
   }
 
-  
-
-
+  if(loginPassword.value.length >= 8 && loginPassword.value == userPassword){
+    alert('user logging in successfully')
+    window.location = './dashboard'
+} else{
+    alert('password sahi wala likho bhai')
+}
     
 }
