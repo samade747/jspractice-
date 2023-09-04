@@ -19,19 +19,20 @@
 
 //
 
-var userfloor = prompt('Enter floor name');
-var lift1 = 2;
-var lift2 = 7;
+// var userfloor = prompt('Enter floor name');
+// var lift1 = 2;
+// var lift2 = 7;
 
-function user1(userfloor){
-    var floor = userfloor - lift1;
-    var floor1 = userfloor - lift2;
-    if (floor < floor1){
-        return lift1
-    } else {
-        return lift2;
-    }
-}
+// function user1(userfloor){
+//     var floor = userfloor - lift1;
+//     var floor1 = userfloor - lift2;
+//     if (floor < floor1){
+//         return lift1
+//     } else {
+//         return lift2;
+//     }
+// }
 
-document.write(user1(userfloor))
+// document.write(user1(userfloor))
+
 
