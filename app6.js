@@ -35,4 +35,39 @@
 
 // document.write(user1(userfloor))
 
+// && operater Check both sides, if any side is false its answer false
+'4' === '4' && '2' === '2'
+// true
+
+// && operater Check both sides, if any side is false its answer false
+'2' === '4' && '2' === '2'
+// false
+
+// && operater Check both sides, if any side is false its answer false
+'4' === '4' && '4' === '2'
+// false
+
+
+//boolean value in javascripit // falsei value 
+
+!!samad
+//true
+
+!!""
+//false
+
+!!0
+//false
+
+!!undefined
+//fasle
+
+!!false
+// false
+
+!!NaN
+// false
+
+!!null
+//false
 
