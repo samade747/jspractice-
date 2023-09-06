@@ -411,31 +411,31 @@
 
 
 
-// var getul = document.getElementById('ul')
+var getul = document.getElementById('ul')
 
-// function foo1(){
-//     var ca = document.getElementById('inp2')
-//     var li = document.createElement('li')
-//     var litext= document.createTextNode(ca.value)
-//     li.appendChild(litext)
-//     getul.appendChild(li)
-//     ca.value = ''
-//     var deletebtn = document.createElement('button');
-//     var deletebtnText = document.createTextNode("Delete");
-//     deletebtn.appendChild(deletebtnText);
-//     li.appendChild(deletebtn);
-//     deletebtn.setAttribute('onclick', 'del(this.parentNode)');
-// }
+function foo1(){
+    var ca = document.getElementById('inp2')
+    var li = document.createElement('li')
+    var litext= document.createTextNode(ca.value)
+    li.appendChild(litext)
+    getul.appendChild(li)
+    ca.value = ''
+    var deletebtn = document.createElement('button');
+    var deletebtnText = document.createTextNode("Delete");
+    deletebtn.appendChild(deletebtnText);
+    li.appendChild(deletebtn);
+    deletebtn.setAttribute('onclick', 'del(this.parentNode)');
+}
 
-// function deleteall(){
-//     getul.innerHTML = ''
-// }
+function deleteall(){
+    getul.innerHTML = ''
+}
  
 
-// function del(node){
-//    node.remove()
+function del(node){
+   node.remove()
 
-// }
+}
 
 
 
