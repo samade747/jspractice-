@@ -190,3 +190,9 @@ document.write('<br>');
 
 // 011
 
+let firstNumber = +prompt('enter the first number:');
+let secoundNumber = +prompt('enter the second number:');
+let operator = +prompt('enter the second number:');
+let (operator === '+'){
+    
+}
