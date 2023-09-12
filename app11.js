@@ -44,7 +44,28 @@ document.write('<br>');
 
 // 004
 
+const chara1 = prompt('Enter any alphabet from a to z:');
+chara1 = chara1.toLowerCase();
+if((chara1 === 'a')||(chara1 === 'e')||(chara1 === 'i')(chara1 === 'o')(chara1 === 'u')){
+    document.write('<h3>true</h3>')
+} else {
+    document.write('<h3>false</h3>')
+}
 
+document.write('<br>'); 
+
+// 005 
+let correctPassword = "210000";
+let userPasswor = prompt('enter your password: ');
+if (userPasswor === ''){
+    document.write('please enter your paswword');
+} else if (correctPassword === userPasswor){
+    document.write('Correct ! password Matched')
+} else if (correctPassword !== userPasswor){
+    document.write('incorrect paswword');
+}
+
+document.write('<br>'); 
 
 
 
