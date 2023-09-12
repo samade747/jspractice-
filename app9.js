@@ -194,5 +194,16 @@ let firstNumber = +prompt('enter the first number:');
 let secoundNumber = +prompt('enter the second number:');
 let operator = +prompt('enter the second number:');
 let (operator === '+'){
-    
+    let results = firstNumber + secoundNumber;
+    document.write('Results:' + results);
+} else if(operator === '-') {
+    let results = firstNumber - secoundNumber;
+} else if(operator === '*') {
+    let results = firstNumber * secoundNumber;
+} else if(operator === '/') {
+    let results = firstNumber / secoundNumber;
+} else if(operator === '%') {
+    let results = firstNumber % secoundNumber;
 }
+
+document.write('<br>');
