@@ -68,7 +68,33 @@ if (userPasswor === ''){
 document.write('<br>'); 
 
 
+// 006
 
+let greeting;
+var hour = 13;
+if (hour < 18){
+    greeting = 'good Day';
+    document.write(greeting);
+}
+
+
+document.write('<br>'); 
+
+// 007
+let timeString = prompt('Enter time in 24 hours clock format like: 1900 = 7pm');
+let time = +timeString.padStart(4, '0');
+
+if((time >= 0) && (time < 1200)){
+    document.write('good Morning');
+} else if ((time >= 1200) && (time < 1700)){
+    document.write('good Afternoon');
+} else if ((time >= 1700) && (time < 2100)){
+    document.write('good Evening');    
+} else if ((time >= 2100) && (time < 2359)){
+    document.write('good night');
+} else {
+    document.write('invalid input');
+}
 
 
 
