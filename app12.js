@@ -61,6 +61,8 @@ document.write(colors + '<br>');
 // 9 e
 colors.pop();
 document.write(colors + '<br>');
+// 9 f
+
 
 
 
