@@ -70,11 +70,32 @@ document.write(colors + '<br>');
 
 // 9g
 
-let 
+let delete_index = prompt('At which index you want to delete color');
+let color_quantity = prompt('how many colors you want to delete?');
+colors.splice(delete_index,color_quantity);
+document.write(colors + '<br><br>');
+
+// 0010
+
+let scores = [320, 230, 480, 120];
+document.write('scores of students:'+ scores + '<br>');
+let sorted_Score = scores.sort();
+document.write('ordered scores of stucents:' + sorted_Score +'<br>')
 
 
+// 0011
 
+let cities = ['karachi', 'lahore', 'islambad', 'Quetta', 'peshawar'];
+let selected_cities = cities.slice(2,4);
+document.write('cities list' + '<br>');
+document.write(cities + '<br>');
+document.write('selected cities list:' + '<br>');
+document.write(selected_cities + '<br>');
 
+// 0012
+
+var arr = ['this', 'is', 'my', 'cat'];
+var string = arr.join(' ');
 
 
 
