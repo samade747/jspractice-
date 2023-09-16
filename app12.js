@@ -96,7 +96,19 @@ document.write(selected_cities + '<br>');
 
 var arr = ['this', 'is', 'my', 'cat'];
 var string = arr.join(' ');
+document.write('Array: ' + '<br>');
+document.write(arr + '<br>');
+document.write('string: '+ '<br>');
+document.write(string: + '<br>');
 
+// 0013
+
+let devices = [];
+devices.push('keyboard');
+devices.push('Mouse');
+devices.push('Printer');
+devices.push('Monitor');
+document.write('devices:' + '<br>');
 
 
 
