@@ -63,8 +63,14 @@ colors.pop();
 document.write(colors + '<br>');
 // 9 f
 
+let index_number = prompt('at which index you want to add color');
+let color_name = prompt(`write the color name you want to add at ${index_number}?`);
+colors.splice(index_number,0,color_name);
+document.write(colors + '<br>');
 
+// 9g
 
+let 
 
 
 
