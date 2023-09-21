@@ -23,6 +23,7 @@ function signup(){
     var pass = document.getElementById('spass').value
     localStorage.setItem('Email',email)
     localStorage.setItem('password',pass)
+    location.href = './signIn.html'
 }
 
 function signin(){
@@ -32,7 +33,8 @@ function signin(){
         location.href = './welcome.html'
     }
     else{
-    alert('invalid user name password');
+    alert('invalid user name password  ..');
+    location.href = './signup.html'
     }
 }
 
