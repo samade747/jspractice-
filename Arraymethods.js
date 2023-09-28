@@ -27,3 +27,15 @@ var myFriendNames = ['samad', 'noman', 'abdulrauf', 'ahmed' ]
 // no backward search, only forward search
 console.log(myFriendNames.includes('noman'));
 console.log(myFriendNames.includes('ahmed'));
+
+
+// find method 
+
+// Return the found element in the array, 
+// if not found its shows undefined
+// only problem is that its return only one element
+
+
+
+
+
