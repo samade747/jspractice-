@@ -19,14 +19,14 @@
 
 //includes 
 
-var myFriendNames = ['samad', 'noman', 'abdulrauf', 'ahmed' ]
+// var myFriendNames = ['samad', 'noman', 'abdulrauf', 'ahmed' ]
 
 //if value is inculde its reply true & false
 // determines whether the array contains a value
 // returning true or false 
 // no backward search, only forward search
-console.log(myFriendNames.includes('noman'));
-console.log(myFriendNames.includes('ahmed'));
+// console.log(myFriendNames.includes('noman'));
+// console.log(myFriendNames.includes('ahmed'));
 
 
 // find method 
@@ -36,6 +36,14 @@ console.log(myFriendNames.includes('ahmed'));
 // only problem is that its return only one element
 
 
+const prices = [200, 300, 350, 400, 450, 500, 600];
+
+// Question < 400
+const findElem = prices.find((currVal){
+    return currVal < 400;
+});
+
+console.log(findElem);
 
 
 
