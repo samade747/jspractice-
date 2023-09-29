@@ -53,22 +53,42 @@
 // provided filtering function for array returns true,
 // if condition has no value in it it returns an empty array
 
-const prices = [200, 300, 350, 400, 450, 500, 600];
+// const prices = [200, 300, 350, 400, 450, 500, 600];
 
 
-const newPricesTag = prices.filter(function(prices){
-    // return prices > 400;
-    return prices > 300;
-})
+// const newPricesTag = prices.filter(function(prices){
+//     // return prices > 400;
+//     return prices > 300;
+// })
 
 
-document.write(newPricesTag);
+// document.write(newPricesTag);
 
 
 
 
 // Sort Method
 
+// sort the elements in Array 
+// return the sorted Array 
+// default order is ascending 
+// converting elements into string 
+
+
+// const months = ['March', 'Jan', 'Feb', 'Dec', 'Nov'];
+
+
+// const sorMonths = months.sort();
+
+// document.write(sorMonths);
+
+
+
+const lumber = [1, 130, 4, 21, 1000, 99];
+
+const lumber1 = lumber.sort();
+
+document.write(lumber1);
 
 
 
