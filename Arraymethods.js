@@ -36,14 +36,39 @@
 // only problem is that its return only one element
 
 
+// const prices = [200, 300, 350, 400, 450, 500, 600];
+
+// // Question < 400
+// const findElem = prices.find((currVal){
+//     return currVal < 400;
+// });
+
+// console.log(findElem);
+
+
+
+// filter Method 
+
+// Return a new array contain all elements we call calling 
+// provided filtering function for array returns true,
+// if condition has no value in it it returns an empty array
+
 const prices = [200, 300, 350, 400, 450, 500, 600];
 
-// Question < 400
-const findElem = prices.find((currVal){
-    return currVal < 400;
-});
 
-console.log(findElem);
+const newPricesTag = prices.filter(function(prices){
+    // return prices > 400;
+    return prices > 300;
+})
+
+
+document.write(newPricesTag);
+
+
+
+
+// Sort Method
+
 
 
 
