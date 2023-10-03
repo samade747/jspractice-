@@ -1,96 +1,133 @@
-// indexof learning Array indexof method 
+// // indexof learning Array indexof method 
 
-// var myFreindNames = ['samad', 'noman', 'abdulrauf', 'ahmed' ]
-
-
-// finding index with name 'noman' and provide the search start index in numbers
-
-// console.log(myFreindNames.indexOf('noman', 0));
+// // var myFreindNames = ['samad', 'noman', 'abdulrauf', 'ahmed' ]
 
 
-// lasIndexOf
-// var myFreindNames = ['samad', 'noman', 'abdulrauf', 'ahmed' ]
+// // finding index with name 'noman' and provide the search start index in numbers
 
-// // start from last 
-
-// console.log(myFreindNames.lastIndexOf('noman',3));
+// // console.log(myFreindNames.indexOf('noman', 0));
 
 
+// // lasIndexOf
+// // var myFreindNames = ['samad', 'noman', 'abdulrauf', 'ahmed' ]
 
-//includes 
+// // // start from last 
 
-// var myFriendNames = ['samad', 'noman', 'abdulrauf', 'ahmed' ]
-
-//if value is inculde its reply true & false
-// determines whether the array contains a value
-// returning true or false 
-// no backward search, only forward search
-// console.log(myFriendNames.includes('noman'));
-// console.log(myFriendNames.includes('ahmed'));
-
-
-// find method 
-
-// Return the found element in the array, 
-// if not found its shows undefined
-// only problem is that its return only one element
-
-
-// const prices = [200, 300, 350, 400, 450, 500, 600];
-
-// // Question < 400
-// const findElem = prices.find((currVal){
-//     return currVal < 400;
-// });
-
-// console.log(findElem);
+// // console.log(myFreindNames.lastIndexOf('noman',3));
 
 
 
-// filter Method 
+// //includes 
 
-// Return a new array contain all elements we call calling 
-// provided filtering function for array returns true,
-// if condition has no value in it it returns an empty array
+// // var myFriendNames = ['samad', 'noman', 'abdulrauf', 'ahmed' ]
 
-// const prices = [200, 300, 350, 400, 450, 500, 600];
-
-
-// const newPricesTag = prices.filter(function(prices){
-//     // return prices > 400;
-//     return prices > 300;
-// })
+// //if value is inculde its reply true & false
+// // determines whether the array contains a value
+// // returning true or false 
+// // no backward search, only forward search
+// // console.log(myFriendNames.includes('noman'));
+// // console.log(myFriendNames.includes('ahmed'));
 
 
-// document.write(newPricesTag);
+// // find method 
+
+// // Return the found element in the array, 
+// // if not found its shows undefined
+// // only problem is that its return only one element
 
 
+// // const prices = [200, 300, 350, 400, 450, 500, 600];
 
+// // // Question < 400
+// // const findElem = prices.find((currVal){
+// //     return currVal < 400;
+// // });
 
-// Sort Method
-
-// sort the elements in Array 
-// return the sorted Array 
-// default order is ascending 
-// converting elements into string 
-
-
-// const months = ['March', 'Jan', 'Feb', 'Dec', 'Nov'];
-
-
-// const sorMonths = months.sort();
-
-// document.write(sorMonths);
+// // console.log(findElem);
 
 
 
-const lumber = [1, 130, 4, 21, 1000, 99];
+// // filter Method 
 
-const lumber1 = lumber.sort();
+// // Return a new array contain all elements we call calling 
+// // provided filtering function for array returns true,
+// // if condition has no value in it it returns an empty array
 
-document.write(lumber1);
+// // const prices = [200, 300, 350, 400, 450, 500, 600];
+
+
+// // const newPricesTag = prices.filter(function(prices){
+// //     // return prices > 400;
+// //     return prices > 300;
+// // })
+
+
+// // document.write(newPricesTag);
 
 
 
+
+// // Sort Method
+
+// // sort the elements in Array 
+// // return the sorted Array 
+// // default order is ascending 
+// // converting elements into string 
+
+
+// // const months = ['March', 'Jan', 'Feb', 'Dec', 'Nov'];
+
+
+// // const sorMonths = months.sort();
+
+// // document.write(sorMonths);
+
+
+
+// const lumber = [1, 130, 4, 21, 1000, 99];
+
+// const lumber1 = lumber.sort();
+
+// document.write(lumber1);
+
+
+
+
+// // array 
+
+// var ary = new Array(3);
+
+// for(var g = 0; g < 3; g++){
+//     ary[g] = prompt('enter the value: ');
+// }
+
+
+// document.write('<li>'  + ary +'</li> <br>');
+
+// array pop 
+
+var a = ['samad', 'harron', 'kamil', 'samir'];
+document.write(a + '<br>')
+a.pop();
+document.write(a + '<br><br>');
+
+
+// array push
+
+a.push('samad1');
+
+document.write(a + '<br><br>');
+
+
+// array shift remove from start 
+
+a.shift();
+document.write(a + '<br><br>');
+
+
+
+/// array unshift add value in start 
+a.unshift('samad');
+document.write(a + '<br><br>');
 
 
