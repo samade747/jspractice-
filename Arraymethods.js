@@ -422,3 +422,91 @@
 
 
 // Document object Module 
+
+
+// ***************** Applied in live example ***************** 
+
+// Chapter Object 
+// object must be write in curly braces, ending with coma.
+// access object properties by . Dot 
+
+// var Obj = {
+//     s_id : '01',
+//     s_name : 'samad',
+//     s_age : 23,
+//     S_roll : 'CSC-22-388',
+//     S_depart : 'CS'
+// }
+
+// document.write(obj.s_id,obj.s_name);
+
+// for in () loop is for object 
+// for in ka loop 
+
+// for(var key in Obj){
+//     document.write(key, ' : ' ,Obj[key],'<br>')
+// }
+
+
+// localStorage 
+// session storage is when browser is open session maintain
+// local storage is opened session dont expire till we manually dont do it 
+
+// local storage will dont expire till we do it 
+// localStorage.setItem('firstName', 'samad')
+
+// now we can remove the localstorage 
+// localStorage.clear()
+
+// // session storage 
+// sessionStorage.setItem('lastName', 'samad')
+
+
+// // Get Date 
+// var date = new Date ()
+// //object converting into string
+// var convert = date.toString()
+// //copying string by slice method 
+// var copy = convert.slice(0, 15)
+// document.write(copy + '<br>'); 
+
+// // Get day 
+// // counting start with 0 zero as index number 
+
+// var getday = date.getDay()
+// document.write(getday + '<br>');
+
+// var getday = date.getDate()
+// document.write(getday + '<br>');
+
+// var getday = date.getHours()
+// document.write(getday + '<br>');
+
+// var getday = date.getMinutes()
+// document.write(getday + '<br>');
+
+// var getday = date.getSeconds()
+// document.write(getday + '<br>');
+
+// calulate age 
+
+function calculateAge() {
+var dobInput = document.getElementById('dob').value;
+var dob = new Date(dobInput);
+var dobmili = dob.getTime();
+
+var currentDate = new Date();
+var datemili = currentDate.getTime();
+
+var minus = datemili - dobmili;
+
+var formula = minus / (1000 * 60 * 60 * 24 * 365);
+
+document.getElementById('result').textContent = ' Your age is ' +  Math.floor(formula) + 'years.';
+
+}
+function checkEnter(event) {
+    if (event.key === "Enter") {
+        calculateAge();
+    }
+}
