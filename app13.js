@@ -133,8 +133,27 @@
 // document.write(`largest Number ${largestNumber}`);
 
 
-const A = [24, 53, 201, 10,500, 78, 91, 12];
+// const A = [24, 53, 201, 10,500, 78, 91, 12];
 
-const largestNumber = Math.max(...A);
+// const largestNumber = Math.max(...A);
 
-document.write(`largest Number ${largestNumber}`);
+// document.write(`largest Number ${largestNumber}`);
+
+// 9. Write a program to identify the smallest number in the 
+// given array.
+// A = [24, 53, 78, 91, 12}
+
+// const A = [24, 53, 78, 91, 12, 0, -1, -1.99];
+
+// const smallestNumber = Math.min(...A);
+
+// document.write(`smallest Number ${smallestNumber}`);
+
+
+
+// 10. Write a program to print multiples of 5 ranging 1 to 
+// 100
+
+// for(let i=5; i <= 100; i += 5 ){
+//   document.write(i+ '<br>');
+// }
