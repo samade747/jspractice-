@@ -74,6 +74,10 @@ const charAtIndex3 = findCharacterAtIndex(wordUpload, indexToFind);
 document.write(`charater ${indexToFind}rd index in the ${wordUpload} is ${charAtIndex3}`);
 
 
+// 06
 
+
+// 7. Write a program to replace the “Hyder” to “Islam” in the 
+// word “Hyderabad” and display the result in your browser
 
 
