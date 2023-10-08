@@ -47,5 +47,26 @@
 // 4. Write a program to find the last index of letter “l” in the 
 // word “Hello World” and display the result in your browser
 
+// function findIndex1(){
+//     const word1 = prompt('Please Enter a word');
+//     const index1 = prompt('write a letter for searching index number');
+
+//     const indexUser1 = word1.lastIndexOf(index1);
+
+//     document.write(`the index of ${index1} in the ${word1} is on ${indexUser1}`); 
+
+// }
+
+// findIndex1();
+
+// 5. Write a program to find the character at 3rd index in the 
+// word “Pakistani” and display the result in your browser.
+
+
+
+
+
+
+
 
 
