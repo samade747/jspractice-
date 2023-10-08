@@ -62,9 +62,16 @@
 // 5. Write a program to find the character at 3rd index in the 
 // word “Pakistani” and display the result in your browser.
 
+function findCharacterAtIndex(wordUpload, index){
+    const char = wordUpload.charAt(index);
+    return char;
+}
 
+const wordUpload = prompt('enter the word');
+const indexToFind = +prompt('enter the number to find');
+const charAtIndex3 = findCharacterAtIndex(wordUpload, indexToFind);
 
-
+document.write(`charater ${indexToFind}rd index in the ${wordUpload} is ${charAtIndex3}`);
 
 
 
