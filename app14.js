@@ -171,24 +171,37 @@
 // document.write(`Title Case String : ${titleCaseString} <br>`);
 
 
-const titleCase = function(text) {
-    text = text.split(' ');
+// const titleCase = function(text) {
+//     text = text.split(' ');
   
-    for (let i = 0; i < text.length; i++) {
-      text[i] = text[i].toLowerCase().split('');
-      text[i][0] = text[i][0].toUpperCase();
-      text[i] = text[i].join('');
-    }
+//     for (let i = 0; i < text.length; i++) {
+//       text[i] = text[i].toLowerCase().split('');
+//       text[i][0] = text[i][0].toUpperCase();
+//       text[i] = text[i].join('');
+//     }
   
-    if (text.length === 0) {
-      return "";
-    }
+//     if (text.length === 0) {
+//       return "";
+//     }
   
-    return text.join(' ');
-  };
+//     return text.join(' ');
+//   };
 
-const userInput = prompt("Enter a string:");
-const titleCasedString = titleCase(userInput);
+//   const userInput = prompt("Enter a string:");
+//   const titleCasedString = titleCase(userInput);
 
-document.write(`Original string: ${userInput}<br>`);
-document.write(`Title case string: ${titleCasedString}`);
+// document.write(`Original string: ${userInput}<br>`);
+// document.write(`Title case string: ${titleCasedString}`);
+
+// 12. Write a program that converts the variable num to 
+// string.
+// var num = 35.36 ;
+// Remove the dot to display “3536” display in your browser
+
+
+var num = prompt('enter number with . value');
+var numAsString = num.toString();
+var numWithoutDot = numAsString.replace('.' , '');
+
+document.write(`Original number ${num} <br>`);
+document.write(`Number without dot ${numWithoutDot} <br>`);
