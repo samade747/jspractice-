@@ -89,24 +89,68 @@
 
 // replacement word 
 // function replace text (original text, toreplace, replacement)
-function replaceText(originalText, toReplace, replacement){
-    const modifiedText = originalText.replace(toReplace, replacement);
-    return modifiedText;
-}
+// function replaceText(originalText, toReplace, replacement){
+//     const modifiedText = originalText.replace(toReplace, replacement);
+//     return modifiedText;
+// }
 
-// with userinput
-const originalWord = prompt('Enter the Original word');
-const wordToReplace = prompt('Enter the word to replace');
-const replacementWord = prompt('Enter the Replacement word');
-
-
-
-const modifiedWord = replaceText(originalWord, wordToReplace, replacementWord);
-
-document.write(`original word: ${originalWord} <br>`);
-document.write(`Modified word: ${modifiedWord}`);
+// // with userinput
+// const originalWord = prompt('Enter the Original word');
+// const wordToReplace = prompt('Enter the word to replace');
+// const replacementWord = prompt('Enter the Replacement word');
 
 
 
+// const modifiedWord = replaceText(originalWord, wordToReplace, replacementWord);
+
+// document.write(`original word: ${originalWord} <br>`);
+// document.write(`Modified word: ${modifiedWord}`);
+
+// 8. Write a program to replace all occurrences of “and” in the
+// string with “&” and display the result in your browser.
+// var message = “Ali and Sami are best friends. They play cricket and 
+// football together.”
 
 
+// var message = "Ali and Sami are best friends. They play cricket and football together.";
+
+// var modifiedMessage = message.replace(/and/g, '&');
+
+// document.write(`Original Message ${message} <br>`);
+// document.write(`Modified Message ${modifiedMessage} <br>`);
+
+
+// var message = "Ali and Sami are best friends. They play cricket and football together.";
+
+// var modeifiedMessage = '';
+
+// for(var i = 0; i < message.length; i++){
+//     if(message.slice(i, i+3) === 'and'){
+//         modeifiedMessage += '&';
+//         i += 2;        
+//     } else {
+//         modeifiedMessage += message[i];
+//     }
+// }
+
+// document.write(`original message ${message}`);
+// document.write(`Modified message ${modeifiedMessage}`);
+
+
+// 9. Write a program that converts a string “472” to a number 
+// 472. Display the values & types in your browser
+
+// let strNumber = '472';
+// let numberValue = parseInt(strNumber);
+
+// document.write(`Original String Value ${strNumber} Type: ${typeof strNumber} <br>`);
+
+
+// 10. Write a program that takes user input. Convert and 
+// show the input in capital letters.
+
+let userInput = prompt('enter a string:');
+let capitalizedInput = userInput.toUpperCase();
+
+document.write(`Original input: ${userInput}<br>`);
+document.write(`Capitalized input: ${capitalizedInput}<br>`);
