@@ -149,8 +149,46 @@
 // 10. Write a program that takes user input. Convert and 
 // show the input in capital letters.
 
-let userInput = prompt('enter a string:');
-let capitalizedInput = userInput.toUpperCase();
+// let userInput = prompt('enter a string:');
+// let capitalizedInput = userInput.toUpperCase();
 
-document.write(`Original input: ${userInput}<br>`);
-document.write(`Capitalized input: ${capitalizedInput}<br>`);
+// document.write(`Original input: ${userInput}<br>`);
+// document.write(`Capitalized input: ${capitalizedInput}<br>`);
+
+
+// 11. Write a program that takes user input. Convert and 
+// show the input in title case.
+
+// function toTitleCase(input){
+//     return input.toLowerCase().split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join('');
+    
+// }
+
+// var userInput = prompt('enter a string:');
+// var titleCaseString = toTitleCase(userInput);
+
+// document.write(`Original String : ${userInput} <br>`);
+// document.write(`Title Case String : ${titleCaseString} <br>`);
+
+
+const titleCase = function(text) {
+    text = text.split(' ');
+  
+    for (let i = 0; i < text.length; i++) {
+      text[i] = text[i].toLowerCase().split('');
+      text[i][0] = text[i][0].toUpperCase();
+      text[i] = text[i].join('');
+    }
+  
+    if (text.length === 0) {
+      return "";
+    }
+  
+    return text.join(' ');
+  };
+
+const userInput = prompt("Enter a string:");
+const titleCasedString = titleCase(userInput);
+
+document.write(`Original string: ${userInput}<br>`);
+document.write(`Title case string: ${titleCasedString}`);
