@@ -62,16 +62,16 @@
 // 5. Write a program to find the character at 3rd index in the 
 // word “Pakistani” and display the result in your browser.
 
-function findCharacterAtIndex(wordUpload, index){
-    const char = wordUpload.charAt(index);
-    return char;
-}
+// function findCharacterAtIndex(wordUpload, index){
+//     const char = wordUpload.charAt(index);
+//     return char;
+// }
 
-const wordUpload = prompt('enter the word');
-const indexToFind = +prompt('enter the number to find');
-const charAtIndex3 = findCharacterAtIndex(wordUpload, indexToFind);
+// const wordUpload = prompt('enter the word');
+// const indexToFind = +prompt('enter the number to find');
+// const charAtIndex3 = findCharacterAtIndex(wordUpload, indexToFind);
 
-document.write(`charater ${indexToFind}rd index in the ${wordUpload} is ${charAtIndex3}`);
+// document.write(`charater ${indexToFind}rd index in the ${wordUpload} is ${charAtIndex3}`);
 
 
 // 06
@@ -79,5 +79,34 @@ document.write(`charater ${indexToFind}rd index in the ${wordUpload} is ${charAt
 
 // 7. Write a program to replace the “Hyder” to “Islam” in the 
 // word “Hyderabad” and display the result in your browser
+
+// const originalWord = 'hyderabad';
+// const modifiedWord = originalWord.replace('hyderabad', 'Islamabad');
+
+// document.write(`Original Word ${originalWord} <br>`);
+// document.write(`Modeified Word ${modifiedWord} <br>`);
+
+
+// replacement word 
+// function replace text (original text, toreplace, replacement)
+function replaceText(originalText, toReplace, replacement){
+    const modifiedText = originalText.replace(toReplace, replacement);
+    return modifiedText;
+}
+
+// with userinput
+const originalWord = prompt('Enter the Original word');
+const wordToReplace = prompt('Enter the word to replace');
+const replacementWord = prompt('Enter the Replacement word');
+
+
+
+const modifiedWord = replaceText(originalWord, wordToReplace, replacementWord);
+
+document.write(`original word: ${originalWord} <br>`);
+document.write(`Modified word: ${modifiedWord}`);
+
+
+
 
 
