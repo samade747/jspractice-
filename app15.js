@@ -113,7 +113,11 @@
 let secretNumber = Math.floor(Math.random() * 10) +1;
 let userInput = parseInt(prompt(`Guess the secret number between 1 & 10`));
 
-
+if (userInput === secretNumber){
+    document.write(`Congraultaion! you guess the secret Number:`);    
+} else {
+    document.write(`Sorry the secret number was ${secretNumber}`);
+}
 
 
 
