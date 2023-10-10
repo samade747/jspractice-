@@ -251,25 +251,49 @@
 
 
 
-let userInput = prompt('Enter the array items separated by commas (,):');
+// let userInput = prompt('Enter the array items separated by commas (,):');
 
-// It then uses .split(',') to split the input into an array, 
-// and .map(item => item.trim())
-// to remove any leading or trailing spaces from each item.
-let userData = userInput.split(',').map(item => item.trim());
-let searchItem = prompt('Enter an item to search:').toLowerCase();
-let found = false;
-for (var i = 0; i < userData.length; i++){
-    if( userData[i].toLowerCase() === searchItem){
-        found = true;
-        break;
+// // It then uses .split(',') to split the input into an array, 
+// // and .map(item => item.trim())
+// // to remove any leading or trailing spaces from each item.
+
+// let userData = userInput.split(',').map(item => item.trim());
+// let searchItem = prompt('Enter an item to search:').toLowerCase();
+// let found = false;
+// for (var i = 0; i < userData.length; i++){
+//     if( userData[i].toLowerCase() === searchItem){
+//         found = true;
+//         break;
         
-    }
-}
-if (found) {
-    alert(`Yes ${searchItem} is found in the list.`);
+//     }
+// }
+// if (found) {
+//     alert(`Yes ${searchItem} is found in the list.`);
+// } else {
+//     alert(`sorry ${searchItem} is not found in the list`);
+// }
+
+// 15. Write a program to take password as an input from 
+// user. The password must qualify these requirements:
+// a. It should contain alphabets and numbers
+// b. It should not start with a number
+// c. It must at least 6 characters long
+// If the password does not meet above requirements,
+// prompt the user to enter a valid password.
+// For character codes of a-z, A-Z & 0-9, refer to ASCII
+// table at the end of this document.
+
+
+let password = prompt('Enter a Password: must be at lease 6 character long, not starts with numbers ');
+
+let containsAlphabet = /[a-zA-Z]/.test(password);
+let containsNumber = /[0-9]/.test(password);
+let startsWithNumber = /^[0-9]/.test(password);
+let isLongEnough = password.length >= 6;
+let isNotTooLong = password.length <= 10;
+
+if (containsAlphabet && containsNumber && !startsWithNumber && isLongEnough && isNotTooLong){
+    alert('pasword is valid:');
 } else {
-    alert(`sorry ${searchItem} is not found in the list`);
+    alert('please enter a valid password.');
 }
-
-
