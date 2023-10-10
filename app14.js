@@ -218,3 +218,58 @@
 // ASCII code of . is 46
 // ASCII code of @ is 64
 
+// let username = prompt('Enter your username: ');
+// // checking the special symbols
+// let containsSpecialSymbol = /[!@.,]/.test(username);
+
+// // checking username contains [@]
+// let containsAt = username.includes('@');
+
+// // check if username contains [.] (dot)
+// let containsDot = username.includes('.');
+
+// // checking username is valid
+// if (containsSpecialSymbol || containsAt || containsDot){
+//     alert('Please enter a valid username without special symbol');
+// }   else {
+//     alert('username is valid.');
+// }
+
+
+
+
+
+// 14. You have an array
+// A = [cake”, “apple pie”, “cookie”, “chips”, “patties”]
+// Write a program to enable “search by user input” in an 
+// array. After searching, prompt the user whether the given 
+// item is found in the list or not.
+// Note: Perform case insensitive search. Whether the user 
+// enters cookie, Cookie, COOKIE or coOkIE, program 
+// should inform about its availability. Example:
+
+
+
+
+let userInput = prompt('Enter the array items separated by commas (,):');
+
+// It then uses .split(',') to split the input into an array, 
+// and .map(item => item.trim())
+// to remove any leading or trailing spaces from each item.
+let userData = userInput.split(',').map(item => item.trim());
+let searchItem = prompt('Enter an item to search:').toLowerCase();
+let found = false;
+for (var i = 0; i < userData.length; i++){
+    if( userData[i].toLowerCase() === searchItem){
+        found = true;
+        break;
+        
+    }
+}
+if (found) {
+    alert(`Yes ${searchItem} is found in the list.`);
+} else {
+    alert(`sorry ${searchItem} is not found in the list`);
+}
+
+
