@@ -284,16 +284,33 @@
 // table at the end of this document.
 
 
-let password = prompt('Enter a Password: must be at lease 6 character long, not starts with numbers ');
+// let password = prompt('Enter a Password: must be at least 6 character long to Max 10 Char., not starts with numbers ');
 
-let containsAlphabet = /[a-zA-Z]/.test(password);
-let containsNumber = /[0-9]/.test(password);
-let startsWithNumber = /^[0-9]/.test(password);
-let isLongEnough = password.length >= 6;
-let isNotTooLong = password.length <= 10;
+// let containsAlphabet = /[a-zA-Z]/.test(password);
+// let containsNumber = /[0-9]/.test(password);
+// let startsWithNumber = /^[0-9]/.test(password);
+// let isLongEnough = password.length >= 6;
+// let isNotTooLong = password.length <= 10;
 
-if (containsAlphabet && containsNumber && !startsWithNumber && isLongEnough && isNotTooLong){
-    alert('pasword is valid:');
-} else {
-    alert('please enter a valid password.');
-}
+// if (containsAlphabet && containsNumber && !startsWithNumber && isLongEnough && isNotTooLong){
+//     alert('Great! pasword is valid:');
+// } else {
+//     alert('RETRY  please enter a valid password.');
+// }
+
+
+
+// 16. Write a program to convert the following string to an 
+// array using string split method.
+// var university = “University of Karachi”;
+// Display the elements of array in your browser.
+
+// let userInput = prompt('enter a word to split into single word');
+// let delimiter = prompt('enter the delimiter to split ');
+
+// let resultArray = userInput.split(delimiter);
+
+// for(var i = 0; i < resultArray.length; i++){
+//     document.write(resultArray[i] + '<br>');
+// }
+
