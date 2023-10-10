@@ -1,3 +1,5 @@
+//Chapter 21  25
+
 // 1. Write a program that takes two user inputs for first and 
 // last name using prompt and merge them in a new variable 
 // titled fullName. Greet the user using his full name.
@@ -328,19 +330,19 @@
 // occurrences of word “the” in given string
 
 
-var sentence = "The quick brown fox jumps over the lazy dog";
-var wordToCount = "the";
-var wordCount = 0;
+// var sentence = "The quick brown fox jumps over the lazy dog";
+// var wordToCount = "the";
+// var wordCount = 0;
 
-var lowerCaseSentence = sentence.toLowerCase();
-var lowerCaseWordToCount = wordToCount.toLowerCase();
+// var lowerCaseSentence = sentence.toLowerCase();
+// var lowerCaseWordToCount = wordToCount.toLowerCase();
 
-var words = lowerCaseSentence.split(' ');
+// var words = lowerCaseSentence.split(' ');
 
-for (var i = 0; i < words.length; i++) {
-    if (words[i] === lowerCaseWordToCount) {
-        wordCount++;
-    }
-}
+// for (var i = 0; i < words.length; i++) {
+//     if (words[i] === lowerCaseWordToCount) {
+//         wordCount++;
+//     }
+// }
 
-document.write(`The word "${wordToCount}" occurs ${wordCount} times in the given sentence.`);
+// document.write(`The word "${wordToCount}" occurs ${wordCount} times in the given sentence.`);
