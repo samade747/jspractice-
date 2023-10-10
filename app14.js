@@ -321,3 +321,26 @@
 // let lastCharacter = userInput1.charAt(userInput1.length -1);
 
 // document.write(`the last character of word ${userInput1} is ${lastCharacter}`);
+
+
+// 18. You have a string “The quick brown fox jumps over the 
+// lazy dog”. Write a program to count number of 
+// occurrences of word “the” in given string
+
+
+var sentence = "The quick brown fox jumps over the lazy dog";
+var wordToCount = "the";
+var wordCount = 0;
+
+var lowerCaseSentence = sentence.toLowerCase();
+var lowerCaseWordToCount = wordToCount.toLowerCase();
+
+var words = lowerCaseSentence.split(' ');
+
+for (var i = 0; i < words.length; i++) {
+    if (words[i] === lowerCaseWordToCount) {
+        wordCount++;
+    }
+}
+
+document.write(`The word "${wordToCount}" occurs ${wordCount} times in the given sentence.`);
