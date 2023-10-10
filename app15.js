@@ -54,5 +54,30 @@
 // number.
 // E.g. absolute value of -4 is 4 & absolute value of 5 is 5
 
-var userInput = prompt('enter a number');
+// let userInput = prompt('enter a number');
+// let number = parseFloat(userInput);
 
+// let absoluteValue = Math.abs(number);
+
+// document.write(`the absolte value of ${number} is ${absoluteValue}`);
+
+// 4. Write a program that simulates a dice using random() 
+// method of JS Math class. Display the value of dice in your 
+// browser.
+// 2 dice rolled 
+
+// let dicevalue = Math.floor(Math.random() * 6) + 1;
+
+// document.write(`the dice rolled: ${dicevalue} <br>`)
+
+// let dicevalue1 = Math.floor(Math.random() * 6) + 1;
+
+// document.write(`the dice rolled: ${dicevalue1}`)
+
+// 6. Write a program that shows a random number between 1 
+// and 100 in your browser
+
+let randomNumber = Math.floor(Math.random() *100 ) + 1;
+
+
+document.write(`Random number between 1 and 100 ${randomNumber}`);
