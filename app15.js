@@ -74,6 +74,16 @@
 
 // document.write(`the dice rolled: ${dicevalue1}`)
 
+// 5. Write a program that simulates a coin toss using random()
+// method of JS Math class. Display the value of coin in your
+// browser
+
+// let coinToss = Math.random() < 0.5 ? 'Heads' : 'Tails';
+
+// document.write("The coin landed on: " + coinToss);
+
+
+
 // 6. Write a program that shows a random number between 1 
 // and 100 in your browser
 
@@ -110,14 +120,14 @@
 // number, congratulate the user
 
 
-let secretNumber = Math.floor(Math.random() * 10) +1;
-let userInput = parseInt(prompt(`Guess the secret number between 1 & 10`));
+// let secretNumber = Math.floor(Math.random() * 10) +1;
+// let userInput = parseInt(prompt(`Guess the secret number between 1 & 10`));
 
-if (userInput === secretNumber){
-    document.write(`Congraultaion! you guess the secret Number:`);    
-} else {
-    document.write(`Sorry the secret number was ${secretNumber}`);
-}
+// if (userInput === secretNumber){
+//     document.write(`Congraultaion! you guess the secret Number:`);    
+// } else {
+//     document.write(`Sorry the secret number was ${secretNumber}`);
+// }
 
 
 
