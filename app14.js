@@ -314,3 +314,10 @@
 //     document.write(resultArray[i] + '<br>');
 // }
 
+// 17. Write a program to display the last character of a user 
+// input
+
+// let userInput1 = prompt('Enter a string: ');
+// let lastCharacter = userInput1.charAt(userInput1.length -1);
+
+// document.write(`the last character of word ${userInput1} is ${lastCharacter}`);
