@@ -174,4 +174,17 @@
 // 12. Write a program that creates a date object and show the 
 // date in an alert box that is reset to 100 years back?
 
+// let age = parseInt(prompt(`Enter your age:`));
+// let currentYear = new Date().getFullYear();
+// let birthYear = currentYear - age;
 
+// document.write(`your birth year is ${birthYear}`);
+
+// 13. Write a program to ask the user about his age. Calculate 
+// and show his birth year in your browser
+
+let age = parseInt(prompt(`enter your age;`));
+let currentYear = new Date().getFullYear();
+let birthYear = currentYear - age;
+
+document.write(`Your Birth year is ${birthYear}`);
