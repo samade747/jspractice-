@@ -183,8 +183,8 @@
 // 13. Write a program to ask the user about his age. Calculate 
 // and show his birth year in your browser
 
-let age = parseInt(prompt(`enter your age;`));
-let currentYear = new Date().getFullYear();
-let birthYear = currentYear - age;
+// let age = parseInt(prompt(`enter your age;`));
+// let currentYear = new Date().getFullYear();
+// let birthYear = currentYear - age;
 
-document.write(`Your Birth year is ${birthYear}`);
+// document.write(`Your Birth year is ${birthYear}`);
