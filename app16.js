@@ -171,6 +171,7 @@
 // let currentDateString = new Date().toLocaleString();
 // document.getElementById('currentDate').innerText = currentDateString;
 
-
+// 12. Write a program that creates a date object and show the 
+// date in an alert box that is reset to 100 years back?
 
 
