@@ -136,4 +136,41 @@
 // Extract the hours, reset the date object an hour ahead and 
 // finally display the date object in your browser
 
-let currentDate = new Date();
+// let currentDate = new Date();
+
+// // Extract the Current Hour
+// let currentHour = currentDate.getHours();
+
+
+// // Reset the date object an hour Ahed
+// currentDate.setHours(currentHour + 1);
+
+// // Display the updated date object
+// document.write(`updated date ${currentDate}`);
+
+// 12. Write a program that creates a date object and show the 
+// date in an alert box that is reset to 100 years back?
+
+// let currentDate = new Date();
+// let year = currentDate.getFullYear();
+
+// //seting the year 100 years back
+// currentDate.setFullYear(year -100);
+
+// document.write(`Date reset to 100 years back ${currentDate}`);
+
+function resetDate() {
+    let currentDate = new Date();
+    let year = currentDate.getFullYear();
+    currentDate.setFullYear(year - 100);
+
+    document.getElementById('updatedDate').innerText = currentDate;
+}
+
+// Display the current date on page load
+let currentDateString = new Date().toLocaleString();
+document.getElementById('currentDate').innerText = currentDateString;
+
+
+
+
