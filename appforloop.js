@@ -458,11 +458,18 @@
 
 // array for loop for search method
 
-var text = 'my name is samad';
+// var text = 'my name is samad';
+// var isSamadPresent = false;
 
-for (var i =0; i < text.length; i++){
-    document.write(text.slice(i, i+5) === 'samad');
-}
+
+// for (var i =0; i < text.length; i++){
+//     if(text.slice(i, i+5) === 'samad') {
+//         isSamadPresent = true;
+//         break;
+//     }
+// }
+
+// document.write(isSamadPresent);
 
 
 
