@@ -1,3 +1,5 @@
+// chapter 31-34
+
 // Write a program that displays current date and time in 
 // your browser.
 
@@ -73,6 +75,65 @@
 // hasn't been declared beforehand. Use any variable you like 
 // to represent the Date object
 
+// let now = new Date();
+// let minutesMidnight = (now.getHours() * 60) + now.getMinutes();
+
+// document.write(`Minutes since midnight, Jan 1, 1970: ${minutesMidnight}`);
+
+// 7. Write a program that tests whether it's before noon and 
+// alert “Its AM” else “its PM”
+
+
+// let currentDate = new Date();
+// let currentHour = currentDate.getHours();
+
+// if (currentHour < 12){
+//     document.write(`its AM`);
+// } else {
+//     document.write(`its PM`);
+// }
+
+// 8. Write a program that creates a Date object for the last day 
+// of the last month of 2020 and assigns it to variable named 
+// laterDate
 
 
 
+// let laterDate = new Date(2020, 11, 31);
+// // Month is 0-based (11 represents December)
+
+// document.write(`${laterDate}`);
+
+// 9. Create a date object of the starting date of this Ramadan 
+// and alert the number of days past since 1st Ramadan?
+// Note: 1st Ramadan was on June 18, 2015
+
+
+// declare a variable with function new Date & define the date
+// let ramdanStartDate = new Date(2015, 5, 18);
+
+// let currentDate = new Date();
+// let timeDifference = currentDate - ramdanStartDate;
+// let daysPassed = Math.floor(timeDifference / (1000 *60 * 60 *24));
+
+// document.write(`Number days Passed Since 1st Ramadan ${daysPassed}`);
+
+
+// 10. Write a program that displays in your browser the 
+// seconds that elapsed between the reference date and the 
+// beginning of 2015
+
+// var referenceDate = new Date("January 1, 1970 00:00:00 UTC");
+// var beginningOf2015 = new Date("January 1, 2015 00:00:00 UTC");
+
+// var elapsedMilliseconds = beginningOf2015 - referenceDate;
+// var elapsedSeconds = elapsedMilliseconds / 1000;
+
+// document.write("Seconds elapsed between the reference date and the beginning of 2015: " + elapsedSeconds);
+
+
+// 11. Create a Date object for the current date and time. 
+// Extract the hours, reset the date object an hour ahead and 
+// finally display the date object in your browser
+
+let currentDate = new Date();
