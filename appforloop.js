@@ -226,18 +226,18 @@
 // alert(sum())
 
 
-function sum(f=2,h=5,q=3){
-    var wah = +prompt('Enter value 1')
-    var wah1 = +prompt('Enter value 2')
-    var wah2 = +prompt('Enter value 3')
-    if(wah == '' && wah2 == '' && wah2 == ''){
-        return f + h + q;
-    }
-else{
-    return wah + wah1 + wah2
-}
-}
-alert(sum())
+// function sum(f=2,h=5,q=3){
+//     var wah = +prompt('Enter value 1')
+//     var wah1 = +prompt('Enter value 2')
+//     var wah2 = +prompt('Enter value 3')
+//     if(wah == '' && wah2 == '' && wah2 == ''){
+//         return f + h + q;
+//     }
+// else{
+//     return wah + wah1 + wah2
+// }
+// }
+// alert(sum())
 
 
 // //function we define the value in line 224
@@ -456,6 +456,13 @@ alert(sum())
 // console.log(c)
 
 
+// array for loop for search method
+
+var text = 'my name is samad';
+
+for (var i =0; i < text.length; i++){
+    document.write(text.slice(i, i+5) === 'samad');
+}
 
 
 
