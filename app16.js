@@ -159,17 +159,17 @@
 
 // document.write(`Date reset to 100 years back ${currentDate}`);
 
-function resetDate() {
-    let currentDate = new Date();
-    let year = currentDate.getFullYear();
-    currentDate.setFullYear(year - 100);
+// function resetDate() {
+//     let currentDate = new Date();
+//     let year = currentDate.getFullYear();
+//     currentDate.setFullYear(year - 100);
 
-    document.getElementById('updatedDate').innerText = currentDate;
-}
+//     document.getElementById('updatedDate').innerText = currentDate;
+// }
 
-// Display the current date on page load
-let currentDateString = new Date().toLocaleString();
-document.getElementById('currentDate').innerText = currentDateString;
+// // Display the current date on page load
+// let currentDateString = new Date().toLocaleString();
+// document.getElementById('currentDate').innerText = currentDateString;
 
 
 
