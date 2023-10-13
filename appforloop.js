@@ -539,7 +539,9 @@
 // document.write(Math.round(days)+ ' days <br><br>');
 // document.write(Math.round(month)+ ' months <br><br>');
 // document.write(Math.round(year)+ ' year <br><br>');
+// chapter 32 revision completed 
 
+// pending till 40 
 
 
 
