@@ -507,6 +507,12 @@
 //controlling length  with .tofixed & change it to string
 // console.log(num.toFixed());
 
+let date = new Date();
+
+document.write(date.getDay()+'<br>');
+
+document.write(date.toString().slice(0, 24));
+
 
 
 
