@@ -474,16 +474,43 @@
 
 // touppercase tolowercase
 
-let fullName = 'samAaaAAAAAAAAAAAd';
-let firstChar = fullName.slice(0, 1).toUpperCase();
-let nextChars = fullName.slice(1).toLowerCase();
-let result = firstChar + nextChars;
-document.write(result);
+// let fullName = 'samAaaAAAAAAAAAAAd';
+// let firstChar = fullName.slice(0, 1).toUpperCase();
+// let nextChars = fullName.slice(1).toLowerCase();
+// let result = firstChar + nextChars;
+// document.write(result);
 
 // slice copy (index, length)
 // charAt find single value 
 // indexof('s') find full word & single word
-// 
+// replace want to 2 value (1st word want to change,2nd word want to add)
+// math.round (0-4 tak hai toh 5-9 tak hoga toh round if 2.5 )
+// math.ceil (if we have 2.1 to up le jaye g)
+// math.floor(2.9 hai toh niche le kar jaye g)
+
+// genetating random numbers 
+// Math.random range 0-1 
+// let randam = Math.floor(Math.random() * 10) ;
+// console.log(randam);
+
+// convert the string into number
+// parseInt(prompt)
+// number(prompt)
+// +(prompt)
+
+
+// number to string
+// var number = 22521
+// console.log(num.toString);
+
+
+//controlling length  with .tofixed & change it to string
+// console.log(num.toFixed());
+
+
+
+
+
 
 
 
