@@ -507,11 +507,27 @@
 //controlling length  with .tofixed & change it to string
 // console.log(num.toFixed());
 
-let date = new Date();
+// new date
+// let date = new Date();
 
-document.write(date.getDay()+'<br>');
+// // new date se get day its shows as index number 
+// document.write(date.getDay()+'<br>');
 
-document.write(date.toString().slice(0, 24));
+// // date ko string mai convert then slice se 0 se 24 tak show karwaiya hai
+// document.write(date.toString().slice(0, 24));
+
+// Method            // get               // Range    
+// getDay()          // days of week       // 0-6           0 is sunday 
+// getMonth()        // month               //0-11          0 is january 
+// getDate()         // days of month       //  1-31        1 is 1st of month
+// getFullYear()     // year                //              2015
+// getHours()       // hour                 //  0-23        0 is midnight 12 is noon 23is 11pm
+// getMinutes       // minute               //  0-59
+// getMiliseconds()  // milisecond          // 0-999
+// getTime()          // miliseconds since midnight jan 1, 1970       
+
+
+
 
 
 
