@@ -445,7 +445,7 @@
 // var total =  (2 + 3) * 4;
 // console.log(total) 
 
-
+  
 
 
 // var a = 4;
@@ -470,6 +470,17 @@
 // }
 
 // document.write(isSamadPresent);
+
+
+// touppercase tolowercase
+
+let fullName = 'samAaaAAAAAAAAAAAd';
+let firstChar = fullName.slice(0, 1).toUpperCase();
+let nextChars = fullName.slice(1).toLowerCase();
+let result = firstChar + nextChars;
+document.write(result);
+
+
 
 
 
