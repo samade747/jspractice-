@@ -527,8 +527,16 @@
 // getTime()          // miliseconds since midnight jan 1, 1970       
 
 
+// let firstRamdan = new Date('12 March 2024');
+// let today = new Date();
 
-
+// let diff = firstRamdan.getTime() - today.getTime();
+// // answer in miliseconds
+// //       secondskeliye 1000         
+// let days = diff / (1000*60*60*24);
+// let month = diff / (1000*60*60*24*30);
+// document.write(Math.round(days)+ 'days <br><br>');
+// document.write(Math.round(month)+ 'months');
 
 
 
