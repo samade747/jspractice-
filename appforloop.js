@@ -480,8 +480,10 @@ let nextChars = fullName.slice(1).toLowerCase();
 let result = firstChar + nextChars;
 document.write(result);
 
-
-
+// slice copy (index, length)
+// charAt find single value 
+// indexof('s') find full word & single word
+// 
 
 
 
