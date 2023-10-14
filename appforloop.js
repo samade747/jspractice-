@@ -547,6 +547,21 @@
 // pending till 40 
 
 
+function submitForm(){
+    let name = document.getElementById('Name');
+    let email = document.getElementById('email');
+
+    if(name.value && email.value) {
+        console.log('name-->',  name.value);
+        console.log('email-->', email.value);
+        name.value = '';
+        email.value = '';        
+    } else {
+        console.log('please enter value');
+    }
+}
+
+
 
 
 
