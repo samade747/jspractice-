@@ -547,20 +547,56 @@
 // pending till 40 
 
 
-function submitForm(){
-    let name = document.getElementById('Name');
-    let email = document.getElementById('email');
+// function submitForm(){
+//     let name = document.getElementById('Name');
+//     let email = document.getElementById('email');
 
-    if(name.value && email.value) {
-        console.log('name-->',  name.value);
-        console.log('email-->', email.value);
-        name.value = '';
-        email.value = '';        
-    } else {
-        console.log('please enter value');
-    }
-}
+//     if(name.value && email.value) {
+//         console.log('name-->',  name.value);
+//         console.log('email-->', email.value);
+//         name.value = '';
+//         email.value = '';        
+//     } else {
+//         console.log('please enter value');
+//     }
+// }
 
+
+// switch Case 
+
+let date = new Date();
+
+let day = date.toString().slice(0, 3)
+
+// document.write(day)
+
+day = day;
+
+switch(day){
+    case 'mon':
+        document.write(`today is ${day}`)
+    break;
+    case 'tue':
+        document.write(`today is ${day}`)
+    break;
+    case 'wed':
+        document.write(`today is ${day}`)
+    break;
+    case 'thu':
+        document.write(`today is ${day}`)
+    break;
+    case 'fri':
+        document.write(`today is ${day}`)
+    break;
+    case 'Sat':
+        document.write(`today is ${day}`)
+    break;
+    case 'Sun':
+        document.write(`today is ${day}`)
+    break;
+default:
+    document.write(`invalid ${day}`)
+}   
 
 
 
