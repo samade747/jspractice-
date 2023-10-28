@@ -639,11 +639,31 @@ document.write(b +'<br>')
 
 
 // for each method 
+// its dosent return anything 
+// it didnt create new array 
+// 
+
 var tayyaba = ['samad', 'saad', 'kamil', 'harron']
 
 tayyaba.forEach(function(e){
     document.write(e, '<br>')
 })
+
+// reverse method on above method
+
+var dabaya = tayyaba.reverse()
+
+console.log(dabaya)
+
+// map method 
+// it dosent modify the original array 
+// its create a new array 
+// its returns a new array contain the modified elements
+
+var sabdabaya = tayyaba.map(function(e){
+    document.write(e)
+})
+
 
 
 
