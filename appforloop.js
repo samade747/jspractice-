@@ -601,24 +601,49 @@
 
 // creating 2 functions & passing data to 2 function
 
-function foo(){
-    var obj = {
-        name: 'saad',
-        age:  24
-    }
+// function foo(){
+//     var obj = {
+//         name: 'saad',
+//         age:  24
+//     }
 
-    doo(obj)
-}
-
-
-function doo(e){
-    console.log(e)
-}
-
-foo()
+//     doo(obj)
+// }
 
 
+// function doo(e){
+//     console.log(e)
+// }
 
+// foo()
+
+// for each array 
+// for in object 
+// map 
+
+var data = [12, 3, 234, 25, 12]
+var b = data.filter(function(data){
+    return data > 200
+}) 
+
+document.write(b +'<br>')
+
+
+
+var data = [12, 3, 200, 335, 25, 12, 100]
+var b = data.filter(function(e){
+    return e >= 100
+}) 
+
+document.write(b +'<br>')
+
+
+// for each method 
+var tayyaba = ['samad', 'saad', 'kamil', 'harron']
+
+tayyaba.forEach(function(e){
+    document.write(e, '<br>')
+})
 
 
 
