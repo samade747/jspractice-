@@ -562,44 +562,60 @@
 // }
 
 
-// switch Case 
+// // switch Case 
 
-let date = new Date();
+// let date = new Date();
 
-let day = date.toString().slice(0, 3)
+// let day = date.toString().slice(0, 3)
 
-// document.write(day)
+// // document.write(day)
 
-day = day;
+// day = day;
 
-switch(day){
-    case 'mon':
-        document.write(`today is ${day}`)
-    break;
-    case 'tue':
-        document.write(`today is ${day}`)
-    break;
-    case 'wed':
-        document.write(`today is ${day}`)
-    break;
-    case 'thu':
-        document.write(`today is ${day}`)
-    break;
-    case 'fri':
-        document.write(`today is ${day}`)
-    break;
-    case 'Sat':
-        document.write(`today is ${day}`)
-    break;
-    case 'Sun':
-        document.write(`today is ${day}`)
-    break;
-default:
-    document.write(`invalid ${day}`)
-}   
+// switch(day){
+//     case 'mon':
+//         document.write(`today is ${day}`)
+//     break;
+//     case 'tue':
+//         document.write(`today is ${day}`)
+//     break;
+//     case 'wed':
+//         document.write(`today is ${day}`)
+//     break;
+//     case 'thu':
+//         document.write(`today is ${day}`)
+//     break;
+//     case 'fri':
+//         document.write(`today is ${day}`)
+//     break;
+//     case 'Sat':
+//         document.write(`today is ${day}`)
+//     break;
+//     case 'Sun':
+//         document.write(`today is ${day}`)
+//     break;
+// default:
+//     document.write(`invalid ${day}`)
+// }   
 
 
+// creating 2 functions & passing data to 2 function
 
+function foo(){
+    var obj = {
+        name: 'saad',
+        age:  24
+    }
+
+    doo(obj)
+}
+
+
+function doo(e){
+    console.log(e)
+}
+
+foo()
 
 
 
