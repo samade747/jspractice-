@@ -661,9 +661,9 @@ console.log(dabaya)
 // its returns a new array contain the modified elements
 
 var sabdabaya = tayyaba.map(function(e){
-    document.write(e)
+    document.write(e )
 })
-
+   
 
 
 
