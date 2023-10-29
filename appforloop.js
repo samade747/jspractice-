@@ -562,44 +562,44 @@
 // }
 
 
-// // switch Case 
+// // // switch Case 
 
-// let date = new Date();
+// // let date = new Date();
 
-// let day = date.toString().slice(0, 3)
+// // let day = date.toString().slice(0, 3)
 
-// // document.write(day)
+// // // document.write(day)
 
-// day = day;
+// // day = day;
 
-// switch(day){
-//     case 'mon':
-//         document.write(`today is ${day}`)
-//     break;
-//     case 'tue':
-//         document.write(`today is ${day}`)
-//     break;
-//     case 'wed':
-//         document.write(`today is ${day}`)
-//     break;
-//     case 'thu':
-//         document.write(`today is ${day}`)
-//     break;
-//     case 'fri':
-//         document.write(`today is ${day}`)
-//     break;
-//     case 'Sat':
-//         document.write(`today is ${day}`)
-//     break;
-//     case 'Sun':
-//         document.write(`today is ${day}`)
-//     break;
-// default:
-//     document.write(`invalid ${day}`)
-// }   
+// // switch(day){
+// //     case 'mon':
+// //         document.write(`today is ${day}`)
+// //     break;
+// //     case 'tue':
+// //         document.write(`today is ${day}`)
+// //     break;
+// //     case 'wed':
+// //         document.write(`today is ${day}`)
+// //     break;
+// //     case 'thu':
+// //         document.write(`today is ${day}`)
+// //     break;
+// //     case 'fri':
+// //         document.write(`today is ${day}`)
+// //     break;
+// //     case 'Sat':
+// //         document.write(`today is ${day}`)
+// //     break;
+// //     case 'Sun':
+// //         document.write(`today is ${day}`)
+// //     break;
+// // default:
+// //     document.write(`invalid ${day}`)
+// // }   
 
 
-// creating 2 functions & passing data to 2 function
+// //creating 2 functions & getting data by 2 function
 
 // function foo(){
 //     var obj = {
@@ -615,62 +615,156 @@
 //     console.log(e)
 // }
 
-// foo()
+// // foo()
 
-// for each array 
-// for in object 
-// map 
+// // for each array 
+// // for in object 
+// // map 
 
-var data = [12, 3, 234, 25, 12]
-var b = data.filter(function(data){
-    return data > 200
-}) 
+// var data = [12, 3, 234, 25, 12]
+// var b = data.filter(function(data){
+//     return data > 200
+// }) 
 
-document.write(b +'<br>')
-
-
-
-var data = [12, 3, 200, 335, 25, 12, 100]
-var b = data.filter(function(e){
-    return e >= 100
-}) 
-
-document.write(b +'<br>')
+// document.write(b +'<br>')
 
 
-// for each method 
-// its dosent return anything 
-// it didnt create new array 
-// 
 
-var tayyaba = ['samad', 'saad', 'kamil', 'harron']
+// var data = [12, 3, 200, 335, 25, 12, 100]
+// var b = data.filter(function(e){
+//     return e >= 100
+// }) 
 
-tayyaba.forEach(function(e){
-    document.write(e, '<br>')
-})
+// document.write(b +'<br>')
 
-// reverse method on above method
 
-var dabaya = tayyaba.reverse()
+// // for each method 
+// // its dosent return anything 
+// // it didnt create new array 
+// // 
 
-console.log(dabaya)
+// var tayyaba = ['samad', 'saad', 'kamil', 'harron']
 
-// map method 
-// it dosent modify the original array 
-// its create a new array 
-// its returns a new array contain the modified elements
+// tayyaba.forEach(function(e){
+//     document.write(e, '<br>')
+// })
 
-var sabdabaya = tayyaba.map(function(e){
-    document.write(e )
-})
+// // reverse method on above method
+
+// var dabaya = tayyaba.reverse()
+
+// console.log(dabaya)
+
+// // map method 
+// // it dosent modify the original array 
+// // its create a new array 
+// // its returns a new array contain the modified elements
+
+// var sabdabaya = tayyaba.map(function(e){
+//     document.write(e )
+// })
    
 
+// a function with for in loop 
+
+// function foo(a, b, ...rest){
+//     let num = 0
+
+//     for(let key in rest){
+//         num += rest[key]
+//     }
+
+//     return (a +  b + num)
+
+// }
+
+
+// document.write(foo(1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
+
+
+// const arr = ['samad', 'kamil', 'haroon']
+
+// arr[0] = 'samad1'
+
+// document.write(arr);
 
 
 
+// ... function // rest operator
+
+// ...  // obj , arr, arr of object // spread operator // copy karnah
 
 
+// // spread Operator 
+// let arr = [1, 2, 3, 24, 44, 66543, 3, 0, 505,]
+// let arr2 = [7, 1321, 12321, 32121, 312213231, 0]
+
+// let arr3 = [...arr, ...arr2]
+
+// // arr + arr2 copied by spread operator
+// document.write(`${arr3} <br><br>`)
 
 
+// // & above code without (  comma , )
+// document.write(...(arr3))
+// document.write('<br><br><br><br>')
 
 
+// // spread Operator On Object
+
+// let obj = {
+//     first : '1',
+//     second : '2',
+//     end : '3'
+// }
+
+// let obj2 = {
+//     ...obj,
+//     lname: 'samad bhai'
+
+// }
+
+
+// console.log(obj2)
+
+// housting 
+// apply on variable 
+// function 
+
+//Calling function & below created 
+// abc()
+
+// function abc(){
+//     console.log('hello')
+// }
+
+
+// // function expression 
+// // Escript 6 
+// let foo = function(){
+//     console.log('samad')
+// }
+
+//ES6 FUNCTION 
+// ARROW FUNCTION
+// let abc = (a) =>{
+//     document.write(a)
+// }
+
+// abc('samad')
+
+// let abc = (a, b) =>{
+//     document.write(a, b)
+// }
+
+// abc(`samad', 'kamil`)
+
+// let eq = (a,b,c) => a + b - c
+// document.write(eq(1,2,5))
+
+var a =5 
+if(a == 5){
+    console.log('han Ok')
+} else{
+    console.log('Not Ok')
+}
