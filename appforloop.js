@@ -782,42 +782,92 @@
 
 // arrow function  
 //                   (parameter)// (reslove or reject) (res, rej)
-let pro = new Promise((resolve, reject) => {
-    let kilwao = 'zinger kilaooo'
-    if(kilwao == 'zinger kilaooo'){
-        resolve('han bahi theek hai')
-    } else {
-        reject('nikal bhai')
-    }
-})
-// promise ka respone ata hai 2 surato mai
-// .done if fulfiled chalte hain
-// .catch if rejected chalte hain
+// let pro = new Promise((resolve, reject) => {
+//     let kilwao = 'zinger kilaooo'
+//     if(kilwao == 'zinger kilaooo'){
+//         resolve('han bahi theek hai')
+//     } else {
+//         reject('nikal bhai')
+//     }
+// })
+// // promise ka respone ata hai 2 surato mai
+// // .done if fulfiled chalte hain
+// // .catch if rejected chalte hain
 
 
-// pro ka data //. then is a call back function //(parameter)
-pro.then((data) => {
-    console.log(data)
-// catch is a call back function
-// is promise not fullfiled error show
-}).catch((err) => {
-    console.log(err)
-})
+// // pro ka data //. then is a call back function //(parameter)
+// pro.then((data) => {
+//     console.log(data)
+// // catch is a call back function
+// // is promise not fullfiled error show
+// }).catch((err) => {
+//     console.log(err)
+// })
 
 
 
 
-// new promise reslove reject 
+// // new promise reslove reject 
 
-let pro1 = new Promise((reslove, reject) =>{
-    let worldCup = 'Pakistan'
-    if(worldCup == 'Pakistan'){
-        reslove('jeet gaya')
-    } else {
-        reject('haar gaya')
-    }
-})
+// let pro1 = new Promise((reslove, reject) =>{
+//     let worldCup = 'Pakistan'
+//     if(worldCup == 'Pakistan'){
+//         reslove('jeet gaya')
+//     } else {
+//         reject('haar gaya')
+//     }
+// })
 
-// then is a call back function
-pro1.then(data => console.log(data) )
-.catch(error => console.log(error))
+// // then is a call back function
+// pro1.then(data => console.log(data) )
+// .catch(error => console.log(error))
+
+
+
+
+// Destructing in javascript
+// array & object par chalega 
+// const abc1 = ['abc', 'def', 'lkm', 'pqrs', 'xyz']
+
+// const [a,b,c,d,e] = abc 
+
+// console.log(c)
+
+
+// const obj = {
+//     abc : 'ABCD',
+//     ddd : 'zzjjh',
+//     yyzy: 'addasda',
+//     iloi: 'dassadas'
+// }
+
+
+// const {abc, ddd, yyzy, iloi} = obj
+
+// console.log(abc, ddd, yyzy, iloi)
+
+//api 
+
+// fetch('https://jsonplaceholder.typicode.com/posts')
+// // converting object into json format array of object 
+// .then(data => data.json())
+
+
+// // getting full data 
+// .then(data => console.log(data))
+
+// // if error 
+// .catch(err => console.log(err))
+
+
+// another 
+fetch('https://jsonplaceholder.typicode.com/posts')
+// converting object into json format array of object 
+.then(data => data.json())
+
+
+// getting data of 0 index ka title 
+.then(data => console.log(data[0].title))
+
+// if error 
+.catch(err => console.log(err))
