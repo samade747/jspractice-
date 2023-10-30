@@ -762,9 +762,12 @@
 // let eq = (a,b,c) => a + b - c
 // document.write(eq(1,2,5))
 
-var a =5 
-if(a == 5){
-    console.log('han Ok')
-} else{
-    console.log('Not Ok')
-}
+// var a =5 
+// if(a == 5){
+//     console.log('han Ok')
+// } else{
+//     console.log('Not Ok')
+// }
+
+
+var a = (5 == 5 ? 'han Ok' : 'nikal')
