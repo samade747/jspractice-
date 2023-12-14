@@ -16,7 +16,7 @@
         <div class="col-12 mt-5 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
             
 
-            <label for="flight">
+            <label for="flight" onsubmit="BookingHandler()">
                 <input type="text" placeholder="flightNumber" class="form-control m-2" id="flightNumber">
                 <input type="text" placeholder="number of Passagengers" class="form-control m-2" id="NumberPassenger">
                 <input type="text" placeholder="price" class="form-control m-2" id="price">
@@ -24,9 +24,8 @@
             <button type="button" onclick="BookingHandler()" class="btn btn-primary">Book Now</button>
         </div>
 
-        <div class="col-12 mt-5 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+        <div class="col-12 mt-5 shadow-lg p-3 mb-5 bg-body-tertiary rounded" id="output-container">
             <h1>output</h1>
-
         </div>
 
 
